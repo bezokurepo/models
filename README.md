@@ -6,3 +6,5 @@ Use the search facility and type in the language model you are looking for.
 Regular maintenace and updating will be in operation. Deprecation rules are work in progress, keep in touch if you are forking any models
 # feedback
 If you need new models or support, email ian.gilmour@bezoku.ai
+# training data
+You can find the original conllu files here - https://github.com/UniversalDependencies, many of which have already been forked to bezokurepo
