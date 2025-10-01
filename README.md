@@ -5,4 +5,4 @@ Regular maintenace and updating will be in operation. Deprecation rules are work
 # feedback
 If you need help training a model (NER, Q&A, Sentiment Analysis, Search etc) or support, email ian.gilmour@bezoku.ai
 # training data
-You can find the original conllu files here - https://github.com/UniversalDependencies, many of which have already been forked to bezokurepo
+You can find the original conllu files here - https://github.com/UniversalDependencies, many of which have already been forked to bezokurepo. See the general license.txt and license.txt for each model, which may vary depending on separate licensing / attribution for each corpus.
