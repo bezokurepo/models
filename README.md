@@ -5,4 +5,4 @@ Each language has its own branch. This offers flexibility for models to be updat
 # deprecation
 Regular maintenace and updating will be in operation. Deprecation rules are work in progress, keep in touch if you are forking any models
 # feedback
-If you would like support, email ian.gilmour@bezoku.ai
+If you need new models or support, email ian.gilmour@bezoku.ai
