@@ -1,6 +1,10 @@
 Models are trained on Universal Dependencies which are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
 
-Specific attribution is available for each model. Report any errors to ian.gilmour@bezoku.ai so that they can be fixed urgently.
+Beoku models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+
+Specific attribution and copyright statements are available for each model and their related underlying corpus. 
+
+Report any errors to ian.gilmour@bezoku.ai so that they can be fixed urgently.
 
 The complete license text is available at:
 http://creativecommons.org/licenses/by-sa/4.0/legalcode
