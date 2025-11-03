@@ -1,3 +1,0 @@
-All Bezoku public models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
-
-Specific attribution and copyright statements are available for each model and their related underlying corpus. 
