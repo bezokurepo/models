@@ -1,0 +1,10 @@
+Models are trained on Universal Dependencies which are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+
+All Bezoku public models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+
+Specific attribution and copyright statements are available for each model and their related underlying corpus. 
+
+Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
+
+The complete license text is available at:
+http://creativecommons.org/licenses/by-sa/4.0/legalcode
