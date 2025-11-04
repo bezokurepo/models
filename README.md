@@ -1,5 +1,5 @@
 # general info on models
-All released public models from bezoku labs are posted in this repo. Initla models are POS Taggers and NER. New models are released as the models/data are released. The up to date list for languages can be found here - https://github.com/bezokurepo/language-list
+All released public models from bezoku labs are posted in this repo. Initial models are POS Taggers and NER. New models will cover advanced POS taggers, next token predictors, grammar checkers, spelling checkers, sentiment analysis, knowledge retrieval and document and web search. The up to date list for languages can be found here - https://github.com/bezokurepo/language-list
 # Learn more about models
 You can visit our website here for more information on modeling and how to onboard -> https://www.bezoku.tech/service-01
 # deprecation
