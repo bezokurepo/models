@@ -1,0 +1,11 @@
+## This is a PyTorch model in TorchScript format (v3). Here's what it contains:
+# Structure: Standard PyTorch model serialization format
+# version: PyTorch version (3)
+# byteorder: little-endian byte order
+# data.pkl: Python pickle file with model metadata
+# data/: numbered binary files containing the model weights and tensors
+# data folder: Additional data storage 
+# 
+
+  import torch
+  model = torch.load('---insert path to file----')
