@@ -2,9 +2,19 @@ Models are trained on Universal Dependencies which are licensed under the Creati
 
 All Bezoku public models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
 
-Specific attribution and copyright statements are available for each model and their related underlying corpus. 
+Specific attribution and copyright statements are available for each model and their related underlying corpus. The following attributions are for this corpus:
 
-Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
+    Taulé, M., M.A. Martí, M. Recasens (2008) 'Ancora: Multilevel Annotated Corpora for Catalan and Spanish', Proceedings of 6th International Conference on Language Resources and Evaluation. Marrakesh (Morocco).
+
+In addition, the following paper must be cited if coreference information (attributes entity, coreftype, corefsubtype, homophoricDD or entityref) is used:
+
+    Recasens, Marta, M. Antònia Martí (2010) ‘AnCora-CO: Coreferentially annotated corpora for Spanish and Catalan’. Language Resources and Evaluation, Springer Science.
+
+Additionally, the following paper must be cited when argumental attributes in "sn" or "grup.nom" (attributes func, arg, tem or lexicalid) are used:
+
+    Peris, Aina, Mariona Taulé, Horacio Rodríguez (2010) ‘Semantic Annotation of Deverbal Nominalizations in the Spanish AnCora corpus’. Treebanks and Linguistic Theories (TLT-2010), Estonia.
+
+Report any errors in this or any corpus attribution to ian.gilmour@bezoku.ai so attribution and related licensing issues they can be fixed.
 
 The complete license text is available at:
 http://creativecommons.org/licenses/by-sa/4.0/legalcode
