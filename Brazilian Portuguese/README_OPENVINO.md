@@ -1,4 +1,4 @@
-# OpenVINO Dependency Parser
+# OpenVINO Dependency Parser for bezoku low resource and indigenous language models
 
 Universal CPU-optimized inference tool for BiLSTM dependency parsing with multi-task outputs.
 
@@ -150,9 +150,9 @@ If using this tool for research, please cite:
 ```
 @software{bezoku_dependency_parser,
   title={Universal OpenVINO Dependency Parser},
-  author={Bezoku AI},
+  author={bezoku.ai},
   year={2025},
-  url={https://github.com/bezoku}
+  url={https://github.com/bezokurepo}
 }
 ```
 
@@ -164,4 +164,4 @@ See model-specific metadata.json for usage terms and licensing.
 
 For support, custom models, or enterprise deployment:
 - Email: ian.gilmour@bezoku.ai
-- Models: https://github.com/bezoku
+- Models: https://github.com/bezokurepo/models
