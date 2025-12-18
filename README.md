@@ -1,10 +1,21 @@
 # general info on models
-All released public models from bezoku labs are posted in this repo. Initial models are POS Taggers and NER. New models will cover advanced POS taggers, next token predictors, grammar checkers, spelling checkers, sentiment analysis, knowledge retrieval and document and web search. The up to date list for languages can be found here - https://github.com/bezokurepo/language-list
+All released public models from bezoku labs are posted in this repo. 
+
+Minimum requirements for models:
+torch>=2.0.0
+openvino>=2023.0.0
+numpy>=1.24.0
+
+Use cases in 2026 will include: name entity recognition, sentiment analysis, domain heads for question and answer, document and web search. 
+
+The up to date list for languages can be found here - https://github.com/bezokurepo/language-list
+
 # Learn more about models
 You can visit our website here for more information on modeling and how to onboard -> https://www.bezoku.tech/service-01
 # deprecation
 Regular maintenace and updating will be in operation. Deprecation rules are work in progress, keep in touch if you are forking any models
 # feedback
-If you need help training our low resource and indigenous language foundation models for specific tasks (for example, Sentiment Analysis, Grammar Checker, Spell Checker, Search, Question & Answer, etc), deploying with an openVINO runner on cloud/desktop/android device/USB email ian.gilmour@bezoku.ai or visit https://www.bezoku.tech/service-01
+If you need help training our low resource and indigenous language foundation models for specific tasks (for example, Sentiment Analysis, Grammar Checker, Spell Checker, Search, Question & Answer, etc), or deployment with openVINO (cloud or on device) email ian.gilmour@bezoku.ai or visit https://www.bezoku.tech/service-01
 # training data
-You can find the original conllu files here - https://github.com/UniversalDependencies, many of which have already been forked to bezokurepo. See the general license.txt and license.txt for each model, which may vary depending on separate licensing / attribution for each corpus. You can also examine our roadmap language model corpus, including third party open sourced materials -> https://github.com/bezokurepo/data
+You can find the original conllu files here - https://github.com/UniversalDependencies, many of which have already been forked to bezokurepo. 
+See the general license.txt and license.txt for each model, which may vary depending on separate licensing / attribution for each corpus. You can also examine our roadmap language model corpus, including third party open sourced materials -> https://github.com/bezokurepo/data
