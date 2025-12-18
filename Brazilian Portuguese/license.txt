@@ -1,0 +1,106 @@
+# Licensing
+
+Generally, the model is licensed under the Creative Commons Attribution-ShareAlike
+4.0 International License. To view a copy of this license, visit:
+
+http://creativecommons.org/licenses/by-sa/4.0/
+
+# Corpus sources and application:
+
+Training Set (28,882 sentences)
+•  GSD (Web/News): 9,616 sentences
+•  PetroGold (Oil/Gas): 7,170 sentences
+•  Porttinari (Legal): 5,893 sentences
+•  Bosque-BR (News): 3,163 sentences
+•  DANTEStocks (Finance): 3,040 sentences
+
+Development Set (3,807 sentences)
+•  GSD (Web/News): 1,204 sentences
+•  Porttinari (Legal): 842 sentences
+•  PetroGold (Oil/Gas): 737 sentences
+•  Bosque-BR (News): 523 sentences
+•  DANTEStocks (Finance): 501 sentences
+
+Test Set (4,944 sentences)
+•  Porttinari (Legal): 1,683 sentences
+•  GSD (Web/News): 1,200 sentences
+•  PetroGold (Oil/Gas): 1,039 sentences
+•  Bosque-BR (News): 521 sentences
+•  DANTEStocks (Finance): 501 sentences
+
+# Underlying References
+
+Bosque corpus
+@InProceedings{depling-2017,
+   author =  {Alexandre Rademaker and Fabricio Chalub and Livy
+              Real and Cláudia Freitas and Eckhard Bick and
+              Valeria de Paiva},
+   title = 	 {Universal Dependencies for Portuguese},
+   booktitle = {Proceedings of the Fourth International Conference on Dependency
+                Linguistics (Depling)},
+   year =	 {2017},
+   pages =	 {197-206},
+   month =	 {September},
+   address =	 {Pisa, Italy},
+   url = {http://aclweb.org/anthology/W17-6523}
+}
+
+Porttinari corpus
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v2.13
+License: CC BY 4.0
+Includes text: yes
+Parallel: no
+Genre: news
+Lemmas: manual native
+UPOS: manual native
+XPOS: not available
+Features: manual native
+Relations: manual native
+Contributors: Duran, Magali Sanches; Lopes, Lucelene; Nunes, Maria das Graças Volpe; Pardo, Thiago Alexandre Salgueiro
+Contributing: elsewhere
+Contact: taspardo@icmc.usp.br
+===============================================================================
+
+PetroGold corpus
+@inproceedings{souza2022polishing,
+  title={Polishing the gold--how much revision do we need in treebanks?},
+  author={de{ }Souza, Elvis and Freitas, Cl{\'a}udia},
+  booktitle={Procedings of the Universal Dependencies Brazilian Festival},
+  pages={1--11},
+  year={2022}
+}
+
+Dante Stocks corpus
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v2.15
+License: CC BY 4.0
+Includes text: yes
+Parallel: no
+Genre: social
+Lemmas: manual native
+UPOS: manual native
+XPOS: not available
+Features: manual native
+Relations: manual native
+Contributors: Di Felippo, Ariani; Roman, Norton Trevisan; Pardo, Thiago Alexandre Salgueiro; Barbosa, Bryan Khelven da Silva; Nunes, Maria das Graças Volpe
+Contributing: elsewhere
+Contact: ariani@ufscar.br,norton@usp.br,bryankhelven@ieee.org
+===============================================================================
+
+GSD corpus
+=== Machine-readable metadata =================================================
+Data available since: UD v1.3
+License: CC BY-SA 4.0
+Includes text: yes
+Parallel: no
+Genre: blog news
+Lemmas: automatic
+UPOS: converted from manual
+XPOS: automatic
+Features: automatic
+Relations: converted from manual
+Contributors: Rademaker, Alexandre; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Chalub, Fabricio; Ramisch, Carlos; Belieni, Juan; Wille, Vanessa Berwanger; Pintucci, Rodrigo
+Contributing: here
+Contact: arademaker@gmail.com
+===============================================================================
