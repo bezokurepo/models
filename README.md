@@ -16,4 +16,6 @@ Regular maintenace and updating will be in operation. Deprecation rules are work
 If you need support in training our low resource and indigenous language dependency parser for specific tasks (for example, Sentiment Analysis, Grammar Checker, Spell Checker, Domain specific Question & Answer, Document and Internet Search), or deployment with openVINO (infrence via an API or on device) visit https://www.bezoku.tech/service-01
 # training data
 You can find the original conllu files here -> https://github.com/UniversalDependencies, many of which have already been forked to bezokurepo. 
-See the general license.txt and license.txt for each model, which may vary depending on separate licensing / attribution for each corpus. You can also examine our roadmap language model corpus, including third party open sourced materials -> https://github.com/bezokurepo/data
+See the general license.txt and license.txt for each model, which may vary depending on separate licensing / attribution for each corpus. We do our best to keep licensing accurate includng any references. If you spot any mistakes in attribution report them to ian.gilmour@bezoku.ai
+#roadmap
+Our roadmap for annotatng data can be found here -> https://github.com/bezokurepo/data
