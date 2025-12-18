@@ -33,7 +33,7 @@ Create a model directory and add these files:
 ### Quick Start
 
 ```bash
-python3 openvino_dependency_parser.py
+python3 openvino_parser.py
 ```
 
 The script will prompt you for:
