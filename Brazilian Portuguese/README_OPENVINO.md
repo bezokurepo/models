@@ -23,7 +23,7 @@ Required packages:
 
 ## Required Files
 
-Your model directory must contain:
+Create a model directory and add these files:
 1. **model.pt** - PyTorch model checkpoint (state_dict format)
 2. **vocab.pkl** - Vocabulary dictionaries (pickle format)
 3. **metadata.json** - Model metadata and performance metrics
