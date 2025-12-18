@@ -1,7 +1,7 @@
 # general info on models
 All released public models from bezoku labs are posted in this repo. 
 
-Minimum requirements for models:
+Minimum requirements for inference:
 torch>=2.0.0
 openvino>=2023.0.0
 numpy>=1.24.0
