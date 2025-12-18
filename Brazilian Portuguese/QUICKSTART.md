@@ -9,7 +9,7 @@ pip install torch openvino numpy
 ## 2. Run the Parser
 
 ```bash
-python3 openvino_dependency_parser.py
+python3 openVINO_parser.py
 ```
 
 ## 3. Point to Your Model
