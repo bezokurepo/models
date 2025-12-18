@@ -1,0 +1,34 @@
+{
+  "language": "Brazilian Portuguese",
+  "language_code": "pt-br",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.7973789656992952,
+    "uas": 0.8624800872859721,
+    "upos": 0.9492100238800049,
+    "xpos": 0.8096472918987274,
+    "deprel": 0.8879609048366547,
+    "feats": 0.8409302532672882
+  },
+  "vocabulary_sizes": {
+    "words": 26120,
+    "upos_tags": 19,
+    "xpos_tags": 21,
+    "deprel_types": 55,
+    "feats_patterns": 407
+  },
+  "characteristics": {
+    "variant": "100 % Brazilian with mixed genre, see bezoku model githib for full information",
+    "morphology": "Moderate complexity (fusional)",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  }
+}
