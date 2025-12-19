@@ -1,0 +1,34 @@
+{
+  "language": "Naijá",
+  "language_code": "pcm",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.7979488329985228,
+    "uas": 0.8596889892827997,
+    "upos": 0.9452662765979767,
+    "xpos": 1.0,
+    "deprel": 0.8924197852611542,
+    "feats": 0.970364511013031
+  },
+  "vocabulary_sizes": {
+    "words": 2462,
+    "upos_tags": 17,
+    "xpos_tags": 2,
+    "deprel_types": 52,
+    "feats_patterns": 125
+  },
+  "characteristics": {
+    "variant": "A moderately complex morphology due to word formation processes",
+    "morphology": "Word formation is the main feature",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  }
+}
