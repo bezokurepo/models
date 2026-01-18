@@ -4,6 +4,4 @@ The VTB corpus (1,400 sentences, 1,791 vocabulary, 37 XPOS, 80 DEPREL) exhibited
 
 For example, validation XPOS: 40%, train: 88%, highlighted the importance of simplified annotation schemes for corpora <3K sentences. 
 
-This result informs nezoku's emerging annotation guidelines for newly created treebanks:
-
-annotation schema with ≤20 XPOS, ≤40 DEPREL, targeting 5K+ vocabulary.
+This result informs bezoku's emerging annotation guidelines for newly created treebanks with annotation schema with ≤20 XPOS, ≤40 DEPREL, targeting 5K+ vocabulary.
