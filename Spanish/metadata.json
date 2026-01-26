@@ -1,0 +1,40 @@
+{
+  "language": "Spanish",
+  "language_code": "es",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.8009408178874114,
+    "uas": 0.8600400546768409,
+    "upos": 0.9650468677282333,
+    "xpos": 0.9177988618612289,
+    "deprel": 0.8945290446281433,
+    "feats": 0.9479940682649612
+  },
+  "vocabulary_sizes": {
+    "words": 19078,
+    "upos_tags": 19,
+    "xpos_tags": 319,
+    "deprel_types": 45,
+    "feats_patterns": 259
+  },
+  "characteristics": {
+    "variant": "Ancora from UD",
+    "morphology": "Inflected and complex morphology",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  },
+  "official_metrics": {
+    "LAS": 0.1226,
+    "UAS": 0.13390000000000002,
+    "CLAS": 0.1014,
+    "MLAS": 0.0333
+  }
+}
