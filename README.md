@@ -13,7 +13,7 @@ numpy>=1.24.0
 The up to date list for languages can be found here - https://github.com/bezokurepo/language-list
 
 # How to understand benchmarks in model cards
-UPOS Accuracy: How well the model predicts Universal Part of Speech tags (e.g., NOUN, VERB) which are the most basic morphological category prediction.
+UPOS Accuracy: How well the model predicts Universal Part of Speech tags (e.g., NOUN, VERB) which are the 17 consistent morphological category predictions, regardless of the language.
 
 XPOS Accuracy: How well the model predicts language specific Part of Speech morphology. This is harder for languages which are inflected, agglutinative etc due to their complexity and the requirement for enough (gold standard) annotated data for the model to learn from.
 
