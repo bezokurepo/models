@@ -1,0 +1,40 @@
+{
+  "language": "Scottish Gaelic",
+  "language_code": "gd",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.7554613117219708,
+    "uas": 0.8406017934118468,
+    "upos": 0.9378222823143005,
+    "xpos": 0.8794848024845123,
+    "deprel": 0.8610890507698059,
+    "feats": 0.8811600506305695
+  },
+  "vocabulary_sizes": {
+    "words": 3348,
+    "upos_tags": 18,
+    "xpos_tags": 198,
+    "deprel_types": 49,
+    "feats_patterns": 257
+  },
+  "characteristics": {
+    "variant": "A treebank of Scottish Gaelic based on the Annotated Reference Corpus Of Scottish Gaelic (ARCOSG)",
+    "morphology": "Complex grammar and consontants",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  },
+  "official_metrics": {
+    "LAS": 0.24600000000000002,
+    "UAS": 0.2793,
+    "CLAS": 0.30469999999999997,
+    "MLAS": 0.1183
+  }
+}
