@@ -42,23 +42,14 @@ Comprehensive documentation covering:
 
 ## Test Results
 
-### Brazilian Portuguese Model Test
+### Bulgarian Portuguese Model Test
 **Model:** `best_pos_tagger_model_a100(1).pt`
-**Test Sentence:** "O Brasil é um país da América do Sul."
 
 **Performance:**
 - ✅ Conversion successful
 - ✅ Inference time: **15.9ms** (10 tokens)
 - ✅ Output format: Table view with all 5 tasks
 - ✅ CPU: Intel Core i7-10700 @ 2.90GHz
-
-**Model Stats:**
-- Vocabulary: 26,120 words
-- UPOS: 19 tags (94.92% accuracy)
-- XPOS: 21 tags (80.96% accuracy)
-- DEPREL: 55 types (88.80% accuracy)
-- FEATS: 407 patterns (84.09% accuracy)
-- LAS: 79.74%
 
 ## Key Improvements from Original Script
 
