@@ -1,0 +1,40 @@
+{
+  "language": "Croatian",
+  "language_code": "hr",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.6495279434124593,
+    "uas": 0.7398603784029975,
+    "upos": 0.8873152534166971,
+    "xpos": 0.7635051210721334,
+    "deprel": 0.787338117758433,
+    "feats": 0.7721818288167318
+  },
+  "vocabulary_sizes": {
+    "words": 12431,
+    "upos_tags": 18,
+    "xpos_tags": 661,
+    "deprel_types": 39,
+    "feats_patterns": 773
+  },
+  "characteristics": {
+    "variant": "Croatian UD treebank is based on the extension of the SETimes-HR corpus, the hr500k corpus",
+    "morphology": "Complex and inflected",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  },
+  "official_metrics": {
+    "LAS": 0.1183,
+    "UAS": 0.1423,
+    "CLAS": 0.0955,
+    "MLAS": 0.0405
+  }
+}
