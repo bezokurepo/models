@@ -1,0 +1,40 @@
+{
+  "language": "Sindhi",
+  "language_code": "sd",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.6885491436335975,
+    "uas": 0.8058355542246916,
+    "upos": 0.907319039106369,
+    "xpos": 0.8855200409889221,
+    "deprel": 0.7799982726573944,
+    "feats": 0.6476198732852936
+  },
+  "vocabulary_sizes": {
+    "words": 4586,
+    "upos_tags": 16,
+    "xpos_tags": 34,
+    "deprel_types": 37,
+    "feats_patterns": 409
+  },
+  "characteristics": {
+    "variant": "100 % Sindhi UD 2.16",
+    "morphology": "Inflected and complex",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  },
+  "official_metrics": {
+    "LAS": 0.1972,
+    "UAS": 0.24420000000000003,
+    "CLAS": 0.1418,
+    "MLAS": 0.0526
+  }
+}
