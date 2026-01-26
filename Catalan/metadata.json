@@ -1,0 +1,40 @@
+{
+  "language": "Catalan",
+  "language_code": "ca",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.8117330995062191,
+    "uas": 0.8633956570298941,
+    "upos": 0.9680609107017517,
+    "xpos": 0.9213520288467407,
+    "deprel": 0.9073288291692734,
+    "feats": 0.9513492286205292
+  },
+  "vocabulary_sizes": {
+    "words": 16085,
+    "upos_tags": 18,
+    "xpos_tags": 278,
+    "deprel_types": 41,
+    "feats_patterns": 208
+  },
+  "characteristics": {
+    "variant": "Catalan data from the AnCora corpus",
+    "morphology": "Complex and inflected",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  },
+  "official_metrics": {
+    "LAS": 0.1133,
+    "UAS": 0.1255,
+    "CLAS": 0.0796,
+    "MLAS": 0.0273
+  }
+}
