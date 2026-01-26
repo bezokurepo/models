@@ -19,11 +19,11 @@ XPOS Accuracy: How well the model predicts language specific Part of Speech morp
 
 DEPREL Accuracy: How well the model predicts each token for a given dependency relationship label. This syntactic metric depends on the HEAD being correctly predicted.
 
-FEATS Accuracy: How well the model predicts the syntactic role of each morpheme. This relates to features such as tenses, gender and numbers, for example, and is crucial for downstream semnatic performance.
+FEATS Accuracy: How well the model predicts the syntactic role of each morpheme. This relates to features such as tenses, gender and numbers, for example, and is crucial for downstream semantic performance.
 
 HEAD UAS: How well the model predicts tokens that are assigned the correct head (parent) node. If the HEAD prediction is not performing well, by definition the dependency parser will not function effectively.
 
-LAS: (Labeled Attachment Score): How well the model predicts tokens that are assigned the correct HEAD AND the correct dependency label.Because LAS measures accuracy for the sentence HEAD and the dependency labl, it is generally lower than UAS.
+LAS: (Labeled Attachment Score): How well the model predicts tokens that are assigned the correct HEAD and the correct dependency label. Because LAS measures accuracy for the sentence HEAD and the dependency labl, it is generally lower than UAS.
 
 # Learn more about models
 You can visit our website here for more information on modeling and how to onboard -> https://www.bezoku.tech/service-01
