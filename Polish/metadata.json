@@ -1,0 +1,40 @@
+{
+  "language": "Polish",
+  "language_code": "pl",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.7287323095105522,
+    "uas": 0.8417913782443626,
+    "upos": 0.91616440564394,
+    "xpos": 0.7801531106233597,
+    "deprel": 0.8156315386295319,
+    "feats": 0.7685876712203026
+  },
+  "vocabulary_sizes": {
+    "words": 28013,
+    "upos_tags": 19,
+    "xpos_tags": 890,
+    "deprel_types": 72,
+    "feats_patterns": 1940
+  },
+  "characteristics": {
+    "variant": "UD corpus for LFG and PDB merged, leveraging compatible annotation schemes for XPOS and FEATS",
+    "morphology": "inflected",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  },
+  "official_metrics": {
+    "LAS": 0.2291,
+    "UAS": 0.25780000000000003,
+    "CLAS": 0.2003,
+    "MLAS": 0.08560000000000001
+  }
+}
