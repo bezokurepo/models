@@ -21,25 +21,6 @@ Enter path to model directory: /home/bezoku/Models and Results/Brazilian Portugu
 
 ## 4. Start Parsing!
 
-```
-> O Brasil é um país muito bonito.
-> A economia cresceu em 2024.
-> conllu          # Toggle CoNLL-U format
-> info            # Show model info
-> quit            # Exit
-```
-
-## Example Output
-
-```
-ID   TOKEN           UPOS     XPOS       DEPREL          FEATS                HEAD 
-====================================================================================================
-1    O               DET      DET        det             Definite=Def|Gen..   2    
-2    Brasil          NOUN     NOUN       nsubj           _                    4    
-3    é               AUX      AUX        cop             _                    4    
-4    um              DET      DET        det             _                    5    
-5    país            NOUN     NOUN       root            _                    0    
-...
 
 ⏱️  Inference time: 15.9ms (10 tokens)
 ```
@@ -59,14 +40,6 @@ Your model directory must have:
 - ✅ `vocab.pkl` - Vocabularies
 - ✅ `metadata.json` - Model info
 
-## Performance
-
-**Brazilian Portuguese Model:**
-- LAS: 79.74%
-- Inference: ~16ms/sentence
-- CPU: Intel i7-10700
-
-**Ready for production use! 🚀**
 
 ---
 
