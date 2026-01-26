@@ -43,28 +43,12 @@ The script will prompt you for:
 ### Example Session
 
 ```
-Enter path to model directory: /home/user/Models and Results/Brazilian Portuguese/
+Enter path to model directory: /home/user/Models and Results/[insert language]/
 ✓ Selected: best_pos_tagger_model_a100(1).pt
 
 [Model loads and converts to OpenVINO...]
 
-> O Brasil é um país da América do Sul.
 
-ID   TOKEN           UPOS     XPOS       DEPREL          FEATS                HEAD 
-====================================================================================================
-1    O               DET      ART        det             Definite=Def|Gen..   2    
-2    Brasil          PROPN    PROPN      nsubj           Number=Sing          3    
-3    é               AUX      V          cop             Mood=Ind|Number=..   0    
-4    um              DET      ART        det             Definite=Ind|Gen..   5    
-5    país            NOUN     N          root            Number=Sing          3    
-6    da              ADP      ADP        case            _                    7    
-7    América         PROPN    PROPN      nmod            Number=Sing          5    
-8    do              ADP      ADP        case            _                    9    
-9    Sul             PROPN    PROPN      nmod            Number=Sing          7    
-10   .               PUNCT    .          punct           _                    5    
-
-⏱️  Inference time: 23.4ms (10 tokens)
-```
 
 ## Commands
 
@@ -91,7 +75,7 @@ The parser uses a BiLSTM architecture with:
 - Word embeddings (128-512 dimensions)
 - Bidirectional LSTM layers (1-4 layers)
 - Multi-task classification heads for UPOS, XPOS, DEPREL, FEATS
-- Biaffine attention for HEAD prediction
+- Dot Product for HEAD prediction
 
 ## OpenVINO Optimization
 
