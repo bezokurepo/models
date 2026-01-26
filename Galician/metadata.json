@@ -1,0 +1,40 @@
+{
+  "language": "Galician",
+  "language_code": "gl",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.6610640303012661,
+    "uas": 0.7092774926003557,
+    "upos": 0.9432421624660492,
+    "xpos": 0.9022438824176788,
+    "deprel": 0.873714417219162,
+    "feats": 0.9981241822242737
+  },
+  "vocabulary_sizes": {
+    "words": 5218,
+    "upos_tags": 18,
+    "xpos_tags": 186,
+    "deprel_types": 30,
+    "feats_patterns": 4
+  },
+  "characteristics": {
+    "variant": "Galician UD treebank is based on the automatic parsing of the Galician Technical Corpus (http://sli.uvigo.gal/CTG) created at the University of Vigo by the the TALG NLP research group",
+    "morphology": "Inflected and complex",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  },
+  "official_metrics": {
+    "LAS": 0.0809,
+    "UAS": 0.0886,
+    "CLAS": 0.06280000000000001,
+    "MLAS": 0.024700000000000003
+  }
+}
