@@ -1,4 +1,4 @@
-# general info on hpw to run dependency parsers and interpreting the benchmark data for each model card
+# general info on how to run dependency parsers and interpreting the benchmark data for each model card
 All released public models from bezoku labs are posted in this repo, unless the weights exceed 25 MB.
 
 For Czech and any other files that exceed the github limit, email ian.gilmour@bezoku.ai for a copy.
