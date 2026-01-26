@@ -1,0 +1,34 @@
+{
+  "language": "Ukrainian",
+  "language_code": "uk",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.6302731675063609,
+    "uas": 0.7126613114834041,
+    "upos": 0.8931932300329208,
+    "xpos": 0.6918446570634842,
+    "deprel": 0.8001011461019516,
+    "feats": 0.7072642594575882
+  },
+  "vocabulary_sizes": {
+    "words": 11706,
+    "upos_tags": 19,
+    "xpos_tags": 860,
+    "deprel_types": 66,
+    "feats_patterns": 1477
+  },
+  "characteristics": {
+    "variant": "UD merged corpus using uk_iu and parlamint which are 100 % Ukrainian language",
+    "morphology": "inflected and complex",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  }
+}
