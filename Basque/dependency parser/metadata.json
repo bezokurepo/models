@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "date_trained": "2026-Feb",
   "performance": {
-    "las": 0.016634433475143578,
-    "uas": 0.09272482997078034,
-    "upos": 0.16061414778232574,
-    "xpos": 1.0,
-    "deprel": 0.16064489632844925,
-    "feats": 0.3660533204674721
+    "las": 0.6001,
+    "uas": 0.7028,
+    "upos": 0.8772,
+    "xpos": NO DATA,
+    "deprel": 0.7756,
+    "feats": 0.7733
   },
   "vocabulary_sizes": {
     "words": 6485,
