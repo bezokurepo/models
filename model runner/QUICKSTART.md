@@ -1,4 +1,5 @@
 # Quick Start Guide - OpenVINO Dependency Parser
+The model runner folders will have all refactored code to run bezoku models. The runners in each Model folder may be out of date, this is where the golden copy can be found. Email ian.gilmour@bezoku.ai for support
 
 ## 1. Install Dependencies (one-time)
 
@@ -16,7 +17,7 @@ python3 openvino_dependency_parser.py
 
 When prompted, enter the path to your model directory:
 ```
-Enter path to model directory: /home/bezoku/Models and Results/Brazilian Portuguese/
+Enter path to model directory: /home/xyz/Models and Results/Brazilian Portuguese/
 ```
 
 ## 4. Start Parsing!
@@ -59,12 +60,6 @@ Your model directory must have:
 - ✅ `vocab.pkl` - Vocabularies
 - ✅ `metadata.json` - Model info
 
-## Performance
-
-**Brazilian Portuguese Model:**
-- LAS: 79.74%
-- Inference: ~16ms/sentence
-- CPU: Intel i7-10700
 
 **Ready for production use! 🚀**
 
