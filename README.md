@@ -15,7 +15,7 @@ The up to date list for languages can be found here - https://github.com/bezokur
 # How to understand benchmarks in model cards
 UPOS Accuracy: (Universal Part of Speech) How well the model predicts UPOS tags (e.g., NOUN, VERB) which are the 17 consistent morphological category predictions, regardless of the language.
 
-XPOS Accuracy: (eXtensivel Part of Speech) How well the model predicts language specific Part of Speech morphology. This is harder for languages which are inflected, agglutinative etc due to their complexity and the requirement for (gold standard) annotated data to record the syntactitc information the model needs to learn.
+XPOS Accuracy: (eXtensible Part of Speech) How well the model predicts language specific Part of Speech morphology. This is harder for languages which are inflected, agglutinative etc due to their complexity and the requirement for (gold standard) annotated data to record the syntactitc information the model needs to learn.
 
 DEPREL Accuracy: (Dependency Relation) How well the model predicts each token for a given dependency relationship label. This syntactic metric depends on the HEAD being correctly predicted.
 
