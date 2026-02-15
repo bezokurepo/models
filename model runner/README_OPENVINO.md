@@ -164,4 +164,4 @@ See model-specific metadata.json for usage terms and licensing.
 
 For support, custom models, or enterprise deployment:
 - Email: ian.gilmour@bezoku.ai
-- Models: https://github.com/bezoku
+- Models: https://github.com/bezokurepo
