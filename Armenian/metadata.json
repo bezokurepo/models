@@ -1,0 +1,34 @@
+{
+  "language": "Armenian",
+  "language_code": "hy",
+  "version": "1.0.0",
+  "date_trained": "2026-Feb",
+  "performance": {
+    "las": 0.7132551224871894,
+    "uas": 0.7960569277902638,
+    "upos": 0.9679497927427292,
+    "xpos": 1.0,
+    "deprel": 0.8425885885953903,
+    "feats": 0.8560225665569305
+  },
+  "vocabulary_sizes": {
+    "words": 16507,
+    "upos_tags": 18,
+    "xpos_tags": 2,
+    "deprel_types": 60,
+    "feats_patterns": 1537
+  },
+  "characteristics": {
+    "variant": "UD aggregated corpora (hy_armdtp, hyw_armdtp, hy_bsut) wuithout DEPREL stripping",
+    "morphology": "agglutinative",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  }
+}
