@@ -1,4 +1,4 @@
-🇧🇷 Brazilian Portuguese Dataset - Model Card
+🇧🇷 Brazilian Portuguese Dataset - Model Card - Jan 2026
 
    Language metadata captured:
    Name: Brazilian Portuguese
@@ -12,27 +12,21 @@ Test results
 
 UPOS: 94.92% ⭐⭐⭐⭐⭐
 •  Basic word types (noun, verb, adjective)
-•  Nearly perfect - model gets this right almost always
 
 XPOS: 80.96% ⭐⭐⭐⭐
 •  Detailed Portuguese-specific grammar tags
-•  Good - harder because Portuguese has 21 different tag types
 
 FEATS: 84.09% ⭐⭐⭐⭐
 •  Word features (gender, number, tense, mood)
-•  Very good - tricky because 407 different feature combinations
 
 DEPREL: 88.80% ⭐⭐⭐⭐⭐
 •  How words relate (subject, object, modifier)
-•  Excellent - correctly identifies grammatical relationships
 
 UAS: 86.25% ⭐⭐⭐⭐⭐
 •  Which word connects to which (ignoring the relationship type)
-•  Excellent - finds the right connections
 
 LAS: 79.74% ⭐⭐⭐⭐
 •  Full package: right connection + right relationship
-•  Strong - the hardest task, model succeeds 4 out of 5 times
 
 =============================================
 Energy
