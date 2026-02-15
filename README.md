@@ -13,17 +13,17 @@ numpy>=1.24.0
 The up to date list for languages can be found here - https://github.com/bezokurepo/language-list
 
 # How to understand benchmarks in model cards
-UPOS Accuracy: How well the model predicts Universal Part of Speech tags (e.g., NOUN, VERB) which are the 17 consistent morphological category predictions, regardless of the language.
+UPOS Accuracy: (Universal Part of Speech) How well the model predicts UPOS tags (e.g., NOUN, VERB) which are the 17 consistent morphological category predictions, regardless of the language.
 
-XPOS Accuracy: How well the model predicts language specific Part of Speech morphology. This is harder for languages which are inflected, agglutinative etc due to their complexity and the requirement for enough (gold standard) annotated data for the model to learn from.
+XPOS Accuracy: (eXtensivel Part of Speech) How well the model predicts language specific Part of Speech morphology. This is harder for languages which are inflected, agglutinative etc due to their complexity and the requirement for (gold standard) annotated data to record the syntactitc information the model needs to learn.
 
-DEPREL Accuracy: How well the model predicts each token for a given dependency relationship label. This syntactic metric depends on the HEAD being correctly predicted.
+DEPREL Accuracy: (Dependency Relation) How well the model predicts each token for a given dependency relationship label. This syntactic metric depends on the HEAD being correctly predicted.
 
-FEATS Accuracy: How well the model predicts the syntactic role of each morpheme. This relates to features such as tenses, gender and numbers, for example, and is crucial for downstream semantic performance.
+FEATS Accuracy: (Morphological Features) How well the model predicts the syntactic role of each morpheme. This relates to features such as tenses, gender, numbers, case and is crucial for bezoku model syntactic and head prediction performance.
 
-HEAD UAS: How well the model predicts tokens that are assigned the correct head (parent) node. If the HEAD prediction is not performing well, by definition the dependency parser will not function effectively.
+HEAD UAS Accuracy: (Unlabeled Attachment Score) How well the model predicts tokens that are assigned the correct head (parent) node. If the HEAD prediction is not performing well, by definition the dependency parser will not function effectively.
 
-LAS: (Labeled Attachment Score): How well the model predicts tokens that are assigned the correct HEAD and the correct dependency label. Because LAS measures accuracy for the sentence HEAD and the dependency labl, it is generally lower than UAS.
+LAS: (Labeled Attachment Score) How well the model predicts tokens that are assigned the correct HEAD and the correct dependency label. Because LAS measures accuracy for the sentence HEAD and the dependency label, it is generally lower than UAS.
 
 # Learn more about models
 You can visit our website here for more information on modeling and how to onboard -> https://www.bezoku.tech/service-01
