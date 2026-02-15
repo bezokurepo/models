@@ -1,8 +1,11 @@
 Models are trained on Universal Dependencies which are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International (https://universaldependencies.org/).
 
-All Bezoku public models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+The following UD corpora was used in training:
+1. hy_armtdp (Eastern Armenian)
+2. hy_bsut (Eastern Armenian)  
+3. hyw_armtdp (Western Armenian)
 
-Specific attribution and copyright statements are available for each model and their related underlying corpus. 
+All Bezoku public models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
 
 Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
 
