@@ -1,0 +1,16 @@
+## Basque Model Card - Version 1.0 Feb 2026
+#  UPOS Accuracy: 0.9210
+#  XPOS Accuracy: n/a ⭐ MORPHOLOGICAL
+#  DEPREL Accuracy: 0.8483 ⭐ SYNTACTIC
+#  FEATS Accuracy: 0.8770 ⭐ MORPHOLOGICAL
+#  HEAD UAS: 0.7911 ⭐ SYNTACTIC
+#  LAS: 0.7241 ⭐ SYNTACTIC
+
+# ✅ Train: 5396 sentences
+# ✅ Dev:   1798 sentences
+# ✅ Test:  1799 sentences
+
+# Water usage - 0 gallons (DENVR GPUs are immersion cooled)
+# Runtime - 190 Minutes
+# Pollution - 2 KG CO2 (equivalent to driving 5 miles in an average car, or 1 cheeseburger)
+# To pollute as much as GPT4 (estimated at 7 million tons of CO2), this model would be trained 3.6 million times 
