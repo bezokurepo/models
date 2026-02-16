@@ -1,0 +1,34 @@
+{
+  "language": "Georgian",
+  "language_code": "ka",
+  "version": "1.0.0",
+  "date_trained": "2026-Feb",
+  "performance": {
+    "las": 0.7640778977006101,
+    "uas": 0.8295401220084467,
+    "upos": 0.9527217149734497,
+    "xpos": 1.0,
+    "deprel": 0.8783435225486755,
+    "feats": 0.8332942128181458
+  },
+  "vocabulary_sizes": {
+    "words": 5998,
+    "upos_tags": 18,
+    "xpos_tags": 2,
+    "deprel_types": 33,
+    "feats_patterns": 1069
+  },
+  "characteristics": {
+    "variant": "Merged UD corpora from Georgian UD Treebank (UD_Georgian-GLC)and UD_Georgian-GNC is a treebank based on texts from the Georgian National Corpus, GNC.",
+    "morphology": "Agglutinative",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  }
+}
