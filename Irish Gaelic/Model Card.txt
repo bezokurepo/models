@@ -1,30 +1,32 @@
-Catalan Dataset - Model Card - version 1.0 Feb 2026
+Irish Gaelic Dataset - Model Card - version 1.0 Feb 2026
 
-   Name: Catalan
-   Code: ca
-   Variant: Catalan data from the AnCora corpus
+   Name: Irish Gaelic
+   Code: ga
+   Variant: The Irish UD Treebank (IUDT) is a conversion of the Irish 
+   Dependency Treebank (IDT), which was part of a PhD research project 
+   by Teresa Lynn at Dublin City University, Ireland (Lynn, 2016).
    Morphology: Complex and inflected
 
 =============================================
 Test results
 =============================================
 
-UPOS: 96.81% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
+UPOS: 90.64% ⭐⭐⭐⭐ (Stanza: 96.01%)
 •  Basic word types (noun, verb, adjective)
 
-XPOS: 92.14% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
+XPOS: 90.61% ⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 94.55%) 
 •  Detailed language specific grammar tags
 
-FEATS: 95.13% ⭐⭐⭐⭐⭐ (Stanza: 98.27%)
+FEATS: 74.91% ⭐⭐⭐ (Stanza: 89.41%)
 •  Word features (gender, number, tense, mood)
 
-DEPREL: 90.73% ⭐⭐⭐⭐ (Stanza: n/a)
+DEPREL: 80.45% ⭐⭐⭐⭐ (Stanza: n/a)
 •  How words relate (subject, object, modifier)
 
-UAS: 86.34% ⭐⭐⭐ (Stanza: 93.55%)
+UAS: 75.33% ⭐⭐⭐ (Stanza: 86.81%)
 •  Which word connects to which (ignoring the relationship type)
 
-LAS: 81.17% ⭐⭐⭐ (Stanza: 91.66%)
+LAS: 64.91% ⭐⭐ (Stanza: 81.51%)
 •  Full package: right connection + right relationship
 
 Stanza benchmarks can be found here - https://stanfordnlp.github.io/stanza/performance.html
@@ -33,19 +35,19 @@ Energy, Pollution, Water
 =============================================
 
 Power: 1,500W
-Time: 5,525 seconds (~ 1.5 hours)
-Energy: 1,500W × 1.5 h = 2.25 kWh
-Pollution - < 2 KG CO2 (equivalent to driving 3 miles in an average car, or 1/2 cheeseburger)
+Time: 6972 seconds (~ 2 hours)
+Energy: 1,500W × 2 h = 3 kWh
+Pollution - 2 KG CO2 (equivalent to driving 5 miles in an average car, or 1 cheeseburger)
 
-GPT4 pollution is estimated at 7 million tons of CO2, equivalent to running bezoku foundation model more than 7 million times.
+GPT4 pollution is estimated at 7 million tons of CO2, equivalent to running bezoku foundation model more than 3.5 million times.
 
 No water usage, trained on DENVR Immersion Cooled GPU
 
 =============================================
 Dataset Statistics
 =============================================
-UD corpora: AnCora
-✅ Train: 13123 sentences
-✅ Dev:   1709 sentences
-✅ Test:  1846 sentences
+UD corpora: IUDT
+✅ Train: 4005 sentences
+✅ Dev:   451 sentences
+✅ Test:  454 sentences
 
