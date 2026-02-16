@@ -1,76 +1,50 @@
-🇧🇷 Brazilian Portuguese Dataset - Model Card - Jan 2026
+Armenian Dataset - Model Card - version 1.0 Feb 2026
 
-   Language metadata captured:
-   Name: Brazilian Portuguese
-   Code: pt-br
-   Variant: 100 % Brazilian with mixed genre, see bezoku model githib for full information
-   Morphology: Moderate complexity (fusional)
+   Name: Armenian
+   Code: hy
+   Variant: UD aggregated corpora (hy_armdtp, hyw_armdtp, hy_bsut)
+   Morphology: Agglutinative
 
 =============================================
 Test results
 =============================================
 
-UPOS: 94.92% ⭐⭐⭐⭐⭐
+UPOS: 96.79% ⭐⭐⭐⭐⭐
 •  Basic word types (noun, verb, adjective)
 
-XPOS: 80.96% ⭐⭐⭐⭐
+XPOS: n/a
 •  Detailed Portuguese-specific grammar tags
 
-FEATS: 84.09% ⭐⭐⭐⭐
+FEATS: 85.60% ⭐⭐⭐⭐
 •  Word features (gender, number, tense, mood)
 
-DEPREL: 88.80% ⭐⭐⭐⭐⭐
+DEPREL: 84.26% ⭐⭐⭐⭐
 •  How words relate (subject, object, modifier)
 
-UAS: 86.25% ⭐⭐⭐⭐⭐
+UAS: 79.61% ⭐⭐⭐
 •  Which word connects to which (ignoring the relationship type)
 
-LAS: 79.74% ⭐⭐⭐⭐
+LAS: 71.33% ⭐⭐⭐
 •  Full package: right connection + right relationship
 
 =============================================
-Energy
+Energy, Pollution, Water
 =============================================
 
-•  Power: 1,500W
-•  Time: 5,525 seconds (1.534 hours)
-•  Energy: 1,500W × 1.534h = 2,301 Wh = 2.3 kWh
-•  In Joules: 2,301 Wh × 3,600 = ~8,283,600 Joules (~8.3 MJ)
+Power: 1,500W
+Time: 4,400 seconds (1 1/4 hours)
+Energy: 1,500W × 1.25 h = 1,875 Wh = 1.875 kWh
+Pollution - < 1 KG CO2 (equivalent to driving 3 miles in an average car, or 1/2 cheeseburger)
+
+GPT4 pollution is estimated at 7 million tons of CO2, equiovalent to running bezoku foundation model more than 7 million times.
 
 No water usage, trained on DENVR Immersion Cooled GPU
 
 =============================================
 Dataset Statistics
 =============================================
-
-Dataset Characteristics
-•  Total Sentences: 37,633
-•  Language: Brazilian Portuguese (pt-BR)
-•  Variant: 100% Brazilian Portuguese (European Portuguese excluded from Bosque)
-•  Domains: News, web text, legal documents, financial reports, oil & gas industry
-•  Source: Universal Dependencies 2.14+
-•  Annotation: CoNLL-U format with full morphological features
-
-Training Set (28,882 sentences)
-•  GSD (Web/News): 9,616 sentences
-•  PetroGold (Oil/Gas): 7,170 sentences
-•  Porttinari (Legal): 5,893 sentences
-•  Bosque-BR (News): 3,163 sentences
-•  DANTEStocks (Finance): 3,040 sentences
-
-Development Set (3,807 sentences)
-•  GSD (Web/News): 1,204 sentences
-•  Porttinari (Legal): 842 sentences
-•  PetroGold (Oil/Gas): 737 sentences
-•  Bosque-BR (News): 523 sentences
-•  DANTEStocks (Finance): 501 sentences
-
-Test Set (4,944 sentences)
-•  Porttinari (Legal): 1,683 sentences
-•  GSD (Web/News): 1,200 sentences
-•  PetroGold (Oil/Gas): 1,039 sentences
-•  Bosque-BR (News): 521 sentences
-•  DANTEStocks (Finance): 501 sentences
-
-
+Preprocesing and merging UD corpora: hy_armdtp, hyw_armdtp, hy_bsut
+✅ Train: 11077 sentences
+✅ Dev:   1747 sentences
+✅ Test:  1870 sentences
 
