@@ -13,7 +13,7 @@ UPOS: 94.85% ⭐⭐⭐⭐⭐ (Stanza: 99.16%)
 •  Basic word types (noun, verb, adjective)
 
 XPOS: 83.21% ⭐⭐⭐⭐⭐ (Stanza: 96.97%)
-•  Detailed Portuguese-specific grammar tags
+•  Detailed language specific grammar tags
 
 FEATS: 84.41% ⭐⭐⭐⭐ (Stanza: 97.84%)
 •  Word features (gender, number, tense, mood)
