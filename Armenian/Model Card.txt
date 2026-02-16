@@ -13,7 +13,7 @@ UPOS: 96.79% ⭐⭐⭐⭐⭐
 •  Basic word types (noun, verb, adjective)
 
 XPOS: n/a
-•  Detailed Portuguese-specific grammar tags
+•  Detailed specific grammar tags
 
 FEATS: 85.60% ⭐⭐⭐⭐
 •  Word features (gender, number, tense, mood)
