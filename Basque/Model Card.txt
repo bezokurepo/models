@@ -1,50 +1,54 @@
-Armenian Dataset - Model Card - version 1.0 Feb 2026
+Basque Dataset - Model Card - version 1.0 Feb 2026
 
-   Name: Armenian
-   Code: hy
-   Variant: UD aggregated corpora (hy_armdtp, hyw_armdtp, hy_bsut)
+   Name: Basque
+   Code: eu
+   Variant: Agglutinative - The Basque UD treebank is based on a
+   automatic conversion from part of the Basque Dependency Treebank
+   (BDT), created at the University of of the Basque Country by the 
+   IXA NLP research group
    Morphology: Agglutinative
 
 =============================================
 Test results
 =============================================
 
-UPOS: 96.79% ⭐⭐⭐⭐⭐
+UPOS: 92.10% ⭐⭐⭐⭐⭐ (Stanza: 96.07)
 •  Basic word types (noun, verb, adjective)
 
 XPOS: n/a
 •  Detailed Portuguese-specific grammar tags
 
-FEATS: 85.60% ⭐⭐⭐⭐
+FEATS: 87.70% ⭐⭐⭐⭐ (Stanza: 92.95)
 •  Word features (gender, number, tense, mood)
 
-DEPREL: 84.26% ⭐⭐⭐⭐
+DEPREL: 84.83% ⭐⭐⭐⭐ (Stanza: n/a)
 •  How words relate (subject, object, modifier)
 
-UAS: 79.61% ⭐⭐⭐
+UAS: 79.11% ⭐⭐⭐ (Stanza: 86.65)
 •  Which word connects to which (ignoring the relationship type)
 
-LAS: 71.33% ⭐⭐⭐
+LAS: 72.41 % ⭐⭐⭐ (Stanza: 83.20)
 •  Full package: right connection + right relationship
 
+Stanza benchmarks can be found here - https://stanfordnlp.github.io/stanza/performance.html
 =============================================
 Energy, Pollution, Water
 =============================================
 
 Power: 1,500W
-Time: 4,400 seconds (1 1/4 hours)
-Energy: 1,500W × 1.25 h = 1,875 Wh = 1.875 kWh
-Pollution - < 1 KG CO2 (equivalent to driving 3 miles in an average car, or 1/2 cheeseburger)
+Time: 11,400 seconds (~ 3 hours)
+Energy: 1,500W × 3 h = 4.5 kWh
+Pollution - ~ 2 KG CO2 (equivalent to driving 5 miles in an average car, or 1 cheeseburger)
 
-GPT4 pollution is estimated at 7 million tons of CO2, equiovalent to running bezoku foundation model more than 7 million times.
+GPT4 pollution is estimated at 7 million tons of CO2, equivalent to running bezoku foundation model more than 3.5 million times.
 
 No water usage, trained on DENVR Immersion Cooled GPU
 
 =============================================
 Dataset Statistics
 =============================================
-Preprocesing and merging UD corpora: hy_armdtp, hyw_armdtp, hy_bsut
-✅ Train: 11077 sentences
-✅ Dev:   1747 sentences
-✅ Test:  1870 sentences
+UD corpora: BDT
+✅ Train: 5396 sentences
+✅ Dev:   1798 sentences
+✅ Test:  1799 sentences
 
