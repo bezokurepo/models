@@ -19,7 +19,7 @@
     "feats_patterns": 125
   },
   "characteristics": {
-    "variant": "expanded pidginnot considered complex",
+    "variant": "A Universal Dependencies corpus for spoken Naija (Nigerian Pidgin)",
     "morphology": "expanded pidgin and not considered complex",
     "recommended_use": [
       "grammar checking",
@@ -30,11 +30,4 @@
   "contact": {
     "email": "ian.gilmour@bezoku.ai",
     "partnerships": "For fine-tuning, custom models, or enterprise support"
-  },
-  "official_metrics": {
-    "LAS": 0.1838,
-    "UAS": 0.20010000000000003,
-    "CLAS": 0.1268,
-    "MLAS": 0.0787
-  }
 }
