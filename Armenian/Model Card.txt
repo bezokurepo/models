@@ -1,0 +1,76 @@
+🇧🇷 Brazilian Portuguese Dataset - Model Card - Jan 2026
+
+   Language metadata captured:
+   Name: Brazilian Portuguese
+   Code: pt-br
+   Variant: 100 % Brazilian with mixed genre, see bezoku model githib for full information
+   Morphology: Moderate complexity (fusional)
+
+=============================================
+Test results
+=============================================
+
+UPOS: 94.92% ⭐⭐⭐⭐⭐
+•  Basic word types (noun, verb, adjective)
+
+XPOS: 80.96% ⭐⭐⭐⭐
+•  Detailed Portuguese-specific grammar tags
+
+FEATS: 84.09% ⭐⭐⭐⭐
+•  Word features (gender, number, tense, mood)
+
+DEPREL: 88.80% ⭐⭐⭐⭐⭐
+•  How words relate (subject, object, modifier)
+
+UAS: 86.25% ⭐⭐⭐⭐⭐
+•  Which word connects to which (ignoring the relationship type)
+
+LAS: 79.74% ⭐⭐⭐⭐
+•  Full package: right connection + right relationship
+
+=============================================
+Energy
+=============================================
+
+•  Power: 1,500W
+•  Time: 5,525 seconds (1.534 hours)
+•  Energy: 1,500W × 1.534h = 2,301 Wh = 2.3 kWh
+•  In Joules: 2,301 Wh × 3,600 = ~8,283,600 Joules (~8.3 MJ)
+
+No water usage, trained on DENVR Immersion Cooled GPU
+
+=============================================
+Dataset Statistics
+=============================================
+
+Dataset Characteristics
+•  Total Sentences: 37,633
+•  Language: Brazilian Portuguese (pt-BR)
+•  Variant: 100% Brazilian Portuguese (European Portuguese excluded from Bosque)
+•  Domains: News, web text, legal documents, financial reports, oil & gas industry
+•  Source: Universal Dependencies 2.14+
+•  Annotation: CoNLL-U format with full morphological features
+
+Training Set (28,882 sentences)
+•  GSD (Web/News): 9,616 sentences
+•  PetroGold (Oil/Gas): 7,170 sentences
+•  Porttinari (Legal): 5,893 sentences
+•  Bosque-BR (News): 3,163 sentences
+•  DANTEStocks (Finance): 3,040 sentences
+
+Development Set (3,807 sentences)
+•  GSD (Web/News): 1,204 sentences
+•  Porttinari (Legal): 842 sentences
+•  PetroGold (Oil/Gas): 737 sentences
+•  Bosque-BR (News): 523 sentences
+•  DANTEStocks (Finance): 501 sentences
+
+Test Set (4,944 sentences)
+•  Porttinari (Legal): 1,683 sentences
+•  GSD (Web/News): 1,200 sentences
+•  PetroGold (Oil/Gas): 1,039 sentences
+•  Bosque-BR (News): 521 sentences
+•  DANTEStocks (Finance): 501 sentences
+
+
+
