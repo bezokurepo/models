@@ -13,7 +13,7 @@ UPOS: 96.81% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
 •  Basic word types (noun, verb, adjective)
 
 XPOS: 92.14% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
-•  Detailed specific grammar tags
+•  Detailed language specific grammar tags
 
 FEATS: 95.13% ⭐⭐⭐⭐⭐ (Stanza: 98.27%)
 •  Word features (gender, number, tense, mood)
