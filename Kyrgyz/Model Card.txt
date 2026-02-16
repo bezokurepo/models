@@ -1,15 +1,18 @@
-Catalan Dataset - Model Card - version 1.0 Feb 2026
+Kyrgyz Dataset - Model Card - version 1.0 Feb 2026
 
-   Name: Catalan
-   Code: ca
-   Variant: Catalan data from the AnCora corpus
-   Morphology: Complex and inflected
+   Name: Kyrgyz
+   Code: ky
+   Variant: UD_Kyrgyz-KTMU is dependency parsing based treebank in 
+   Kyrgyz language. The dataset mostly contains headlines from Kyrgyz 
+   news websites.
+   Morphology: Agglutinative
+   Architecture: Modified for ergative system
 
 =============================================
 Test results
 =============================================
 
-UPOS: 96.81% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
+UPOS: % ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
 •  Basic word types (noun, verb, adjective)
 
 XPOS: 92.14% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
@@ -44,8 +47,8 @@ No water usage, trained on DENVR Immersion Cooled GPU
 =============================================
 Dataset Statistics
 =============================================
-UD corpora: AnCora
-✅ Train: 13123 sentences
-✅ Dev:   1709 sentences
-✅ Test:  1846 sentences
+UD corpora: KTMU
+✅ Train: 1984 sentences
+✅ Dev:   248 sentences
+✅ Test:  248 sentences
 
