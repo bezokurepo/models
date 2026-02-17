@@ -1,7 +1,7 @@
 # general info on how to run dependency parsers and interpreting the benchmark data for each model card
 All released public models from bezoku labs are posted in this repo, unless the weights exceed 25 MB.
 
-For Czech and any other files that exceed the github limit, email ian.gilmour@bezoku.ai for a copy.
+For German and any other files that exceed the github limit, email ian.gilmour@bezoku.ai for a copy.
 
 openVINO runners and related files are work in progress. If you cannot get a model to run using the tools provided, please contact us for support.
 
