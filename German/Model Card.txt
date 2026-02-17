@@ -1,30 +1,30 @@
-Catalan Dataset - Model Card - version 1.0 Feb 2026
+German Dataset - Model Card - version 1.0 Feb 2026
 
-   Name: Catalan
-   Code: ca
-   Variant: Catalan data from the AnCora corpus
+   Name: German
+   Code: de
+   Variant: Hamburg Dependency Tree (HDT)
    Morphology: Complex and inflected
 
 =============================================
 Test results
 =============================================
 
-UPOS: 96.81% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
+UPOS: 97.36% ⭐⭐⭐⭐⭐ (Stanza: 98.30%)
 •  Basic word types (noun, verb, adjective)
 
-XPOS: 92.14% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
+XPOS: 97.14% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 98.20%) 
 •  Detailed language specific grammar tags
 
-FEATS: 95.13% ⭐⭐⭐⭐⭐ (Stanza: 98.27%)
+FEATS: 90.15% ⭐⭐⭐⭐⭐ (Stanza: 92.57%)
 •  Word features (gender, number, tense, mood)
 
-DEPREL: 90.73% ⭐⭐⭐⭐ (Stanza: n/a)
+DEPREL: 94.71% ⭐⭐⭐⭐⭐ (Stanza: n/a)
 •  How words relate (subject, object, modifier)
 
-UAS: 86.34% ⭐⭐⭐ (Stanza: 93.55%)
+UAS: 94.76% ⭐⭐⭐⭐⭐ (Stanza: 95.59%)
 •  Which word connects to which (ignoring the relationship type)
 
-LAS: 81.17% ⭐⭐⭐ (Stanza: 91.66%)
+LAS: 91.50% ⭐⭐⭐⭐ (Stanza: 93.56%)
 •  Full package: right connection + right relationship
 
 Stanza benchmarks can be found here - https://stanfordnlp.github.io/stanza/performance.html
@@ -33,19 +33,19 @@ Energy, Pollution, Water
 =============================================
 
 Power: 1,500W
-Time: 5,525 seconds (~ 1.5 hours)
-Energy: 1,500W × 1.5 h = 2.25 kWh
-Pollution - < 2 KG CO2 (equivalent to driving 3 miles in an average car, or 1/2 cheeseburger)
+Time: 113,570 seconds (~ 31.50 hours)
+Energy: 1,500W × 31.50 h = 47.25 kWh
+Pollution - ~ 20 KG CO2 (equivalent to driving 30 miles in an average car, or 15 cheeseburgers)
 
-GPT4 pollution is estimated at 7 million tons of CO2, equivalent to running bezoku foundation model more than 7 million times.
+GPT4 pollution is estimated at 7 million tons of CO2, equivalent to running bezoku foundation model more than 350,000 times.
 
 No water usage, trained on DENVR Immersion Cooled GPU
 
 =============================================
 Dataset Statistics
 =============================================
-UD corpora: AnCora
-✅ Train: 13123 sentences
-✅ Dev:   1709 sentences
-✅ Test:  1846 sentences
+UD corpora: HDT
+✅ Train: 153035 sentences
+✅ Dev:   18434 sentences
+✅ Test:  18459 sentences
 
