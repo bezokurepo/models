@@ -56,7 +56,7 @@ ID   TOKEN           UPOS     XPOS       DEPREL          FEATS                HE
 ## Files Needed
 
 Your model directory must have:
-- ✅ `model.pt` - Model weights
+- ✅ `best_pos_tagger_model_a100.pt` - Model weights
 - ✅ `vocab.pkl` - Vocabularies
 - ✅ `metadata.json` - Model info
 
