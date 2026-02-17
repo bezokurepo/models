@@ -1,0 +1,34 @@
+{
+  "language": "Wolof",
+  "language_code": "wo",
+  "version": "1.0.0",
+  "date_trained": "2026-Feb",
+  "performance": {
+    "las": 0.5909833701816783,
+    "uas": 0.6981639911563972,
+    "upos": 0.9169470071792603,
+    "xpos": 0.9120445847511292,
+    "deprel": 0.7714120745658875,
+    "feats": 0.8570604920387268
+  },
+  "vocabulary_sizes": {
+    "words": 1629,
+    "upos_tags": 17,
+    "xpos_tags": 31,
+    "deprel_types": 39,
+    "feats_patterns": 297
+  },
+  "characteristics": {
+    "variant": "UD",
+    "morphology": "Agglutinative",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  }
+}
