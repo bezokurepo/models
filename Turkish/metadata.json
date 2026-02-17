@@ -1,0 +1,34 @@
+{
+  "language": "Turkish",
+  "language_code": "tr-kenet&boun",
+  "version": "1.0.0",
+  "date_trained": "2026-Feb",
+  "performance": {
+    "las": 0.5927584245579546,
+    "uas": 0.7177212035018784,
+    "upos": 0.9182237982749939,
+    "xpos": 1.0,
+    "deprel": 0.7570100426673889,
+    "feats": 0.8409557441870371
+  },
+  "vocabulary_sizes": {
+    "words": 21979,
+    "upos_tags": 17,
+    "xpos_tags": 2,
+    "deprel_types": 36,
+    "feats_patterns": 2166
+  },
+  "characteristics": {
+    "variant": "UD corpora (kenet + boun) with subtype stripped and 101k case annotated tokens",
+    "morphology": "agglutinative",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  }
+}
