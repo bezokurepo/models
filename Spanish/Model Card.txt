@@ -9,7 +9,7 @@ Catalan Dataset - Model Card - version 1.0 Feb 2026
 Test results
 =============================================
 
-UPOS: 96.81% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
+UPOS: % ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
 •  Basic word types (noun, verb, adjective)
 
 XPOS: 92.14% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
