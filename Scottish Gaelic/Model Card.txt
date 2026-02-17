@@ -1,30 +1,31 @@
-Catalan Dataset - Model Card - version 1.0 Feb 2026
+Scottish Gaelic Dataset - Model Card - version 1.0 Feb 2026
 
-   Name: Catalan
-   Code: ca
-   Variant: Catalan data from the AnCora corpus
-   Morphology: Complex and inflected
+   Name: Scottish Gaelic
+   Code: gd
+   Variant: A treebank of Scottish Gaelic based on the Annotated 
+   Reference Corpus Of Scottish Gaelic (ARCOSG)
+   Morphology: Complex and consonanats
 
 =============================================
 Test results
 =============================================
 
-UPOS: 96.81% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
+UPOS: 93.78% ⭐⭐⭐⭐⭐ (Stanza: 94.62%)
 •  Basic word types (noun, verb, adjective)
 
-XPOS: 92.14% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
+XPOS: 87.95% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 90.24%) 
 •  Detailed language specific grammar tags
 
-FEATS: 95.13% ⭐⭐⭐⭐⭐ (Stanza: 98.27%)
+FEATS: 88.12% ⭐⭐⭐⭐⭐ (Stanza: 91.91%)
 •  Word features (gender, number, tense, mood)
 
-DEPREL: 90.73% ⭐⭐⭐⭐ (Stanza: n/a)
+DEPREL: 86.11% ⭐⭐⭐⭐ (Stanza: n/a)
 •  How words relate (subject, object, modifier)
 
-UAS: 86.34% ⭐⭐⭐ (Stanza: 93.55%)
+UAS: 84.06% ⭐⭐⭐⭐ (Stanza: 82.73%)
 •  Which word connects to which (ignoring the relationship type)
 
-LAS: 81.17% ⭐⭐⭐ (Stanza: 91.66%)
+LAS: 75.55% ⭐⭐⭐⭐ (Stanza: 77.81%)
 •  Full package: right connection + right relationship
 
 Stanza benchmarks can be found here - https://stanfordnlp.github.io/stanza/performance.html
@@ -33,8 +34,8 @@ Energy, Pollution, Water
 =============================================
 
 Power: 1,500W
-Time: 5,525 seconds (~ 1.5 hours)
-Energy: 1,500W × 1.5 h = 2.25 kWh
+Time: 720 seconds (~ 0.2 hours)
+Energy: 1,500W × 0.2 h = 0.3 kWh
 Pollution - < 2 KG CO2 (equivalent to driving 3 miles in an average car, or 1/2 cheeseburger)
 
 GPT4 pollution is estimated at 7 million tons of CO2, equivalent to running bezoku foundation model more than 7 million times.
@@ -44,8 +45,8 @@ No water usage, trained on DENVR Immersion Cooled GPU
 =============================================
 Dataset Statistics
 =============================================
-UD corpora: AnCora
-✅ Train: 13123 sentences
-✅ Dev:   1709 sentences
-✅ Test:  1846 sentences
+UD corpora: ARCOSG
+✅ Train: 3544 sentences
+✅ Dev:   656 sentences
+✅ Test:  548 sentences
 
