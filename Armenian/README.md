@@ -44,7 +44,7 @@ The script will prompt you for:
 
 ```
 Enter path to model directory: /home/user/Models and Results/Brazilian Portuguese/
-✓ Selected: best_pos_tagger_model_a100(1).pt
+✓ Selected: best_pos_tagger_model_a100.pt
 
 [Model loads and converts to OpenVINO...]
 
