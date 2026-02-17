@@ -24,7 +24,7 @@ Required packages:
 ## Required Files
 
 Create a model directory and add these files:
-1. **model.pt** - PyTorch model checkpoint (state_dict format)
+1. **best_pos_tagger_model_a100.pt** - PyTorch model checkpoint (state_dict format)
 2. **vocab.pkl** - Vocabulary dictionaries (pickle format)
 3. **metadata.json** - Model metadata and performance metrics
 
@@ -33,7 +33,7 @@ Create a model directory and add these files:
 ### Quick Start
 
 ```bash
-python3 openvino_parser.py
+python3 openvino_dependency_parser.py
 ```
 
 The script will prompt you for:
@@ -44,7 +44,7 @@ The script will prompt you for:
 
 ```
 Enter path to model directory: /home/user/Models and Results/Brazilian Portuguese/
-✓ Selected: best_pos_tagger_model_a100(1).pt
+✓ Selected: best_pos_tagger_model_a100.pt
 
 [Model loads and converts to OpenVINO...]
 
