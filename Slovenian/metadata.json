@@ -1,0 +1,34 @@
+{
+  "language": "Slovenian",
+  "language_code": "sl",
+  "version": "1.0.0",
+  "date_trained": "2025-12-17",
+  "performance": {
+    "las": 0.7103723845253531,
+    "uas": 0.7748044095230333,
+    "upos": 0.9220627099275589,
+    "xpos": 0.8187433332204819,
+    "deprel": 0.8461048156023026,
+    "feats": 0.8237826377153397
+  },
+  "vocabulary_sizes": {
+    "words": 18786,
+    "upos_tags": 18,
+    "xpos_tags": 1169,
+    "deprel_types": 42,
+    "feats_patterns": 1131
+  },
+  "characteristics": {
+    "variant": "Merged UD Corpus: Spoken Slovenian Treebank (SST) and SSJ treebank is the reference UD treebank for Slovenian, consisting of approximately 13,000 sentences and 267,097 tokens from fiction, non-fiction, periodical and Wikipedia texts in standard modern Slovenian",
+    "morphology": "Inflected with complex morphology",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  }
+}
