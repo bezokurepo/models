@@ -10,22 +10,22 @@ Slovenian Dataset - Model Card - version 1.0 Feb 2026
 Test results
 =============================================
 
-UPOS: 92.21% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
+UPOS: 92.21% ⭐⭐⭐⭐⭐ (Stanza: n/a)
 •  Basic word types (noun, verb, adjective)
 
-XPOS: 81.87% ⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
+XPOS: 81.87% ⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: n/a)
 •  Detailed language specific grammar tags
 
-FEATS: 82.38% ⭐⭐⭐⭐ (Stanza: 98.27%)
+FEATS: 82.38% ⭐⭐⭐⭐ (Stanza: n/a)
 •  Word features (gender, number, tense, mood)
 
 DEPREL: 84.61% ⭐⭐⭐⭐ (Stanza: n/a)
 •  How words relate (subject, object, modifier)
 
-UAS: 77.48% ⭐⭐⭐ (Stanza: 93.55%)
+UAS: 77.48% ⭐⭐⭐ (Stanza: n/a)
 •  Which word connects to which (ignoring the relationship type)
 
-LAS: 71.04% ⭐⭐⭐ (Stanza: 91.66%)
+LAS: 71.04% ⭐⭐⭐ (Stanza: n/a)
 •  Full package: right connection + right relationship
 
 Merged treebanks, no Stanza benchmarks. Check SST and SSJ at https://stanfordnlp.github.io/stanza/performance.html
