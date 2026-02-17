@@ -25,8 +25,8 @@ HEAD UAS Accuracy: (Unlabeled Attachment Score) How well the model predicts toke
 
 LAS: (Labeled Attachment Score) How well the model predicts tokens that are assigned the correct HEAD and the correct dependency label. Because LAS measures accuracy for the sentence HEAD and the dependency label, it is generally lower than UAS.
 
-# Learn more about models
-You can visit our website here for more information on modeling and how to onboard -> https://www.bezoku.tech/service-01
+# Learn more about compute
+Visit DENVR dataworks, where all our models are run - https://www.denvr.com/
 # deprecation
 Regular maintenace and updating will be in operation. Deprecation rules are work in progress, keep in touch if you are forking any models
 # feedback
