@@ -1,40 +1,40 @@
-Catalan Dataset - Model Card - version 1.0 Feb 2026
+Turkish Dataset - Model Card - version 1.0 Feb 2026
 
-   Name: Catalan
-   Code: ca
-   Variant: Catalan data from the AnCora corpus
-   Morphology: Complex and inflected
+   Name: Turkish
+   Code: tr
+   Variant: UD corpora (kenet + boun)
+   Morphology: Agglutinative
 
 =============================================
 Test results
 =============================================
 
-UPOS: 96.81% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
+UPOS: 91.82% ⭐⭐⭐⭐ (Stanza: n/a)
 •  Basic word types (noun, verb, adjective)
 
-XPOS: 92.14% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
+XPOS: n/a%  MORPHOLOGICAL (Stanza: n/a) 
 •  Detailed language specific grammar tags
 
-FEATS: 95.13% ⭐⭐⭐⭐⭐ (Stanza: 98.27%)
+FEATS: 84.10% ⭐⭐⭐⭐ (Stanza: n/a)
 •  Word features (gender, number, tense, mood)
 
-DEPREL: 90.73% ⭐⭐⭐⭐ (Stanza: n/a)
+DEPREL: 75.70% ⭐⭐⭐ (Stanza: n/a)
 •  How words relate (subject, object, modifier)
 
-UAS: 86.34% ⭐⭐⭐ (Stanza: 93.55%)
+UAS: 71.77% ⭐⭐ (Stanza: n/a)
 •  Which word connects to which (ignoring the relationship type)
 
-LAS: 81.17% ⭐⭐⭐ (Stanza: 91.66%)
+LAS: 59.28% ⭐⭐ (Stanza: n/a)
 •  Full package: right connection + right relationship
 
-Stanza benchmarks can be found here - https://stanfordnlp.github.io/stanza/performance.html
+Stanza benchmarks for kenet + boun can be found here - https://stanfordnlp.github.io/stanza/performance.html
 =============================================
 Energy, Pollution, Water
 =============================================
 
 Power: 1,500W
-Time: 5,525 seconds (~ 1.5 hours)
-Energy: 1,500W × 1.5 h = 2.25 kWh
+Time: 4,100 seconds (~ 1.2 hours)
+Energy: 1,500W × 1.2 h = 1.8 kWh
 Pollution - < 2 KG CO2 (equivalent to driving 3 miles in an average car, or 1/2 cheeseburger)
 
 GPT4 pollution is estimated at 7 million tons of CO2, equivalent to running bezoku foundation model more than 7 million times.
@@ -44,8 +44,8 @@ No water usage, trained on DENVR Immersion Cooled GPU
 =============================================
 Dataset Statistics
 =============================================
-UD corpora: AnCora
-✅ Train: 13123 sentences
-✅ Dev:   1709 sentences
-✅ Test:  1846 sentences
+UD corpora: Merged kenet + boun
+✅ Train: 23201 sentences
+✅ Dev:   2625 sentences
+✅ Test:  2622 sentences
 
