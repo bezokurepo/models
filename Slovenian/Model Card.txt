@@ -1,51 +1,52 @@
-Catalan Dataset - Model Card - version 1.0 Feb 2026
+Slovenian Dataset - Model Card - version 1.0 Feb 2026
 
-   Name: Catalan
-   Code: ca
-   Variant: Catalan data from the AnCora corpus
+   Name: Slovenian
+   Code: sl
+   Variant: Merged UD Corpus: Spoken Slovenian Treebank (SST) and SSJ 
+   treebank
    Morphology: Complex and inflected
 
 =============================================
 Test results
 =============================================
 
-UPOS: 96.81% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
+UPOS: 92.21% ⭐⭐⭐⭐⭐ (Stanza: 98.70%)
 •  Basic word types (noun, verb, adjective)
 
-XPOS: 92.14% ⭐⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
+XPOS: 81.87% ⭐⭐⭐⭐ MORPHOLOGICAL (Stanza: 95.93%) 
 •  Detailed language specific grammar tags
 
-FEATS: 95.13% ⭐⭐⭐⭐⭐ (Stanza: 98.27%)
+FEATS: 82.38% ⭐⭐⭐⭐ (Stanza: 98.27%)
 •  Word features (gender, number, tense, mood)
 
-DEPREL: 90.73% ⭐⭐⭐⭐ (Stanza: n/a)
+DEPREL: 84.61% ⭐⭐⭐⭐ (Stanza: n/a)
 •  How words relate (subject, object, modifier)
 
-UAS: 86.34% ⭐⭐⭐ (Stanza: 93.55%)
+UAS: 77.48% ⭐⭐⭐ (Stanza: 93.55%)
 •  Which word connects to which (ignoring the relationship type)
 
-LAS: 81.17% ⭐⭐⭐ (Stanza: 91.66%)
+LAS: 71.04% ⭐⭐⭐ (Stanza: 91.66%)
 •  Full package: right connection + right relationship
 
-Stanza benchmarks can be found here - https://stanfordnlp.github.io/stanza/performance.html
+Merged treebanks, no Stanza benchmarks. Check SST and SSJ at https://stanfordnlp.github.io/stanza/performance.html
 =============================================
 Energy, Pollution, Water
 =============================================
 
 Power: 1,500W
-Time: 5,525 seconds (~ 1.5 hours)
-Energy: 1,500W × 1.5 h = 2.25 kWh
-Pollution - < 2 KG CO2 (equivalent to driving 3 miles in an average car, or 1/2 cheeseburger)
+Time: 20,590 seconds (~ 5.7 hours)
+Energy: 1,500W × 5.7 h = 8.6 kWh
+Pollution - 4 KG CO2 (equivalent to driving 10 miles in an average car, or 2 cheeseburger)
 
-GPT4 pollution is estimated at 7 million tons of CO2, equivalent to running bezoku foundation model more than 7 million times.
+GPT4 pollution is estimated at 7 million tons of CO2, equivalent to running bezoku foundation model more than 1.75 million times.
 
 No water usage, trained on DENVR Immersion Cooled GPU
 
 =============================================
 Dataset Statistics
 =============================================
-UD corpora: AnCora
-✅ Train: 13123 sentences
-✅ Dev:   1709 sentences
-✅ Test:  1846 sentences
+UD corpora: SST & SSJ
+✅ Train: 15997 sentences
+✅ Dev:   1845 sentences
+✅ Test:  1714 sentences
 
