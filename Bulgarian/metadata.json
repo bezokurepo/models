@@ -31,10 +31,4 @@
     "email": "ian.gilmour@bezoku.ai",
     "partnerships": "For fine-tuning, custom models, or enterprise support"
   },
-  "official_metrics": {
-    "LAS": 0.2116,
-    "UAS": 0.2403,
-    "CLAS": 0.19190000000000002,
-    "MLAS": 0.07980000000000001
-  }
 }
