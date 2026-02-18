@@ -27,7 +27,7 @@ UAS: 79.61% ⭐⭐⭐
 LAS: 71.33% ⭐⭐⭐
 •  Full package: right connection + right relationship
 
-Stanza benchmarks for standalone Ukrainian corpus can be found here - https://stanfordnlp.github.io/stanza/performance.html
+Stanza benchmarks for standalone Armenian corpus can be found here - https://stanfordnlp.github.io/stanza/performance.html
 =============================================
 Energy, Pollution, Water
 =============================================
