@@ -3,7 +3,7 @@ All released public models from bezoku labs are posted in this repo, unless the 
 
 For German and any other files that exceed the github limit, email ian.gilmour@bezoku.ai for a copy.
 
-openVINO runners and related files are work in progress. If you cannot get a model to run using the tools provided, please contact us for support.
+openVINO runners and related files are work in progress. If you cannot get a model to run using the tools provided (e.g. Apple Mac silicon and OS not supportred at present), please contact us for support.
 
 Minimum requirements for inference:
 torch>=2.0.0
