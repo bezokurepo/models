@@ -11,6 +11,7 @@ import numpy as np
 import json
 import pickle
 import os
+import re
 import time
 from pathlib import Path
 import torch.nn as nn
@@ -140,10 +141,30 @@ def load_vocabularies(vocab_path: str) -> Dict:
     return vocab
 
 
+def sanitize_json(raw: str) -> str:
+    """Remove trailing commas and common JSON formatting issues."""
+    # Strip trailing commas before } or ]
+    sanitized = re.sub(r',\s*([}\]])', r'\1', raw)
+    return sanitized
+
+
 def load_metadata(metadata_path: str) -> Dict:
-    """Load model metadata from JSON file"""
+    """Load model metadata from JSON file, tolerating trailing commas."""
     with open(metadata_path, 'r', encoding='utf-8') as f:
-        metadata = json.load(f)
+        raw = f.read()
+    try:
+        metadata = json.loads(raw)
+    except json.JSONDecodeError:
+        # Retry after stripping trailing commas
+        sanitized = sanitize_json(raw)
+        try:
+            metadata = json.loads(sanitized)
+            print("⚠️  metadata.json had formatting issues (e.g. trailing commas) — auto-corrected")
+        except json.JSONDecodeError as e:
+            raise ValueError(
+                f"Failed to parse {metadata_path} even after sanitization: {e}\n"
+                f"Please verify the file contains valid JSON."
+            ) from e
     return metadata
 
 
