@@ -10,25 +10,28 @@ Universal CPU-optimized inference tool for BiLSTM dependency parsing with multi-
 - **Interactive mode**: Test sentences in real-time
 - **CoNLL-U export**: Toggle between table and CoNLL-U format output
 
+## Windows Powershell support can be found here - https://learn.microsoft.com/en-us/windows/python/beginners
+Commands can be copied into the Terminal window and have been tested on Ubuntu. For Windows, it may require some extra steps. If you need support to install Python or any of the commands below, try the python beginners link first.
+
 ## Requirements
 1) Install Python (one-time)
 
-For Windows users, you can visit the Windows Store
+For Windows, you can visit the Windows Store or the python beginners link above
 https://apps.microsoft.com/detail/9nq7512cxl7t?ocid=webpdpshare
 
-For Ubuntu copy this instruction into Terminal
+For Ubuntu, copy this instruction into the Terminal application
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
-For MACOS contact support for updates on package.
+Android support is upcoming. MAC OS is not supported at this time.
 
 2) Start bezoku installation
+Open Terminal
 
 ```bash
 pip install -r requirements_openvino.txt
 ```
-
 
 Required packages:
 - `torch>=2.0.0`
