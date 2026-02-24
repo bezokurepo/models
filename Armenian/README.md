@@ -16,15 +16,15 @@ Commands can be copied into the Terminal window and have been tested on Ubuntu. 
 ## Requirements
 1) Install Python (one-time)
 
-For Windows users, you can visit the Windows Store or the python beginners link above
+For Windows, you can visit the Windows Store or the python beginners link above
 https://apps.microsoft.com/detail/9nq7512cxl7t?ocid=webpdpshare
 
-For Ubuntu copy this instruction into the Terminal application
+For Ubuntu, copy this instruction into the Terminal application
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
-For MACOS contact support for updates on package.
+Android support is upcoming. MAC OS is not supported at this time.
 
 2) Start bezoku installation
 Open Terminal
