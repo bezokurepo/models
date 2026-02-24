@@ -25,6 +25,7 @@ $ sudo apt-get install python3.6
 ```bash
 pip install -r requirements_openvino.txt
 ```
+For MACOS contact support for updates on package.
 
 Required packages:
 - `torch>=2.0.0`
