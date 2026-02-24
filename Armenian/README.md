@@ -25,6 +25,7 @@ $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
 2) Install pip
+
 Copy this instruction into the Terminal application
 ```bash
 $ python get-pip.py
