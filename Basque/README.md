@@ -13,7 +13,7 @@ Universal CPU-optimized inference tool for BiLSTM dependency parsing with multi-
 ## Windows Powershell support can be found here - https://learn.microsoft.com/en-us/windows/python/beginners
 Commands can be copied into the Terminal window and have been tested on Ubuntu. For Windows, it may require some extra steps. If you need support to install Python or any of the commands below, try the python beginners link first.
 
-## Requirements
+## Preparation
 1) Install Python (one-time)
 
 For Windows, you can visit the Windows Store or the python beginners link above
@@ -24,9 +24,15 @@ For Ubuntu, copy this instruction into the Terminal application
 $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
-Android support is upcoming. MAC OS is not supported at this time.
+2) Install pip
 
-2) Start bezoku installation
+Copy this instruction into the Terminal application
+```bash
+$ python get-pip.py
+```
+Support Note: Android is dropping in March 2026. MAC OS is not supported at this time.
+
+## Start bezoku installation
 Open Terminal
 
 ```bash
