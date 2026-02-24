@@ -24,7 +24,7 @@ For Ubuntu, copy this instruction into the Terminal application
 $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
-2) Install pip
+2) Install pip (one-time)
 
 Copy this instruction into the Terminal application
 ```bash
