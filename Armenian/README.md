@@ -40,8 +40,9 @@ Create a model directory, e.g. Armenian, and download these files:
 2. **vocab.pkl** - Vocabulary dictionaries (pickle format)
 3. **metadata.json** - Model metadata and performance metrics
 4. **requirements_openvino.txt** - The libraries needed to run the model
+5. **openvino_dependency_parser.py** - This is the model runner
 
-Once the four files are downloaded on to the desktop, follow these steps befopre running the model:
+Once the five files are downloaded on to the desktop, follow these steps befopre running the model:
 
 Open Terminal
 ```bash
