@@ -1,26 +1,35 @@
 # Quick Start Guide - OpenVINO Dependency Parser
-The model runner folders will have all refactored code to run bezoku models. The runners in each Model folder may be out of date, this is where the golden copy can be found. Email ian.gilmour@bezoku.ai for support
+The model runner folders will have all refactored code to run bezoku models. The runners in each Model folder may be out of date, this is where the golden copy can be found. Email ian.gilmour@bezoku.ai for support.
 
-## 1. Install Dependencies (one-time)
+## 1. Install Python (one-time)
+For Windows users, you can visit the Windows Store
+https://apps.microsoft.com/detail/9nq7512cxl7t?ocid=webpdpshare
+
+For Ubuntu copy this instruction into Terminal
+```bash
+$ sudo apt-get update
+$ sudo apt-get install python3.6
+```
+## 2. Install Dependencies (one-time)
 
 ```bash
 pip install torch openvino numpy
 ```
 
-## 2. Run the Parser
+## 3. Run the Parser
 
 ```bash
 python3 openvino_dependency_parser.py
 ```
 
-## 3. Point to Your Model
+## 4. Point to Your Model
 
 When prompted, enter the path to your model directory:
 ```
 Enter path to model directory: /home/xyz/Models and Results/Brazilian Portuguese/
 ```
 
-## 4. Start Parsing!
+## 5. Start Parsing!
 
 ```
 > O Brasil é um país muito bonito.
