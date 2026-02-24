@@ -11,6 +11,15 @@ Universal CPU-optimized inference tool for BiLSTM dependency parsing with multi-
 - **CoNLL-U export**: Toggle between table and CoNLL-U format output
 
 ## Requirements
+#Install Python (one-time)
+For Windows users, you can visit the Windows Store
+https://apps.microsoft.com/detail/9nq7512cxl7t?ocid=webpdpshare
+
+For Ubuntu copy this instruction into Terminal
+```bash
+$ sudo apt-get update
+$ sudo apt-get install python3.6
+```
 
 ```bash
 pip install -r requirements_openvino.txt
