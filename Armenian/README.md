@@ -11,7 +11,7 @@ Universal CPU-optimized inference tool for BiLSTM dependency parsing with multi-
 - **CoNLL-U export**: Toggle between table and CoNLL-U format output
 
 ## Windows Powershell support can be found here - https://learn.microsoft.com/en-us/windows/python/beginners
-Commands can be copied into the Terminal window and have been tested on Ubuntu. For Windows, it may require some extra steps. If you need support to install Python or any of the commands below, try the pythin beginners link first.
+Commands can be copied into the Terminal window and have been tested on Ubuntu. For Windows, it may require some extra steps. If you need support to install Python or any of the commands below, try the python beginners link first.
 
 ## Requirements
 1) Install Python (one-time)
