@@ -35,33 +35,37 @@ Support Note: Android is dropping in March 2026. MAC OS is not supported at this
 ## Start bezoku installation
 ## Required Files
 
-Create a model directory and add these files:
+Create a model directory, e.g. Armenian, and download these files:
 1. **best_pos_tagger_model_a100.pt** - PyTorch model checkpoint (state_dict format)
 2. **vocab.pkl** - Vocabulary dictionaries (pickle format)
 3. **metadata.json** - Model metadata and performance metrics
-4. **requirements_openvino.txt
+4. **requirements_openvino.txt** - The libraries needed to run the model
 
+Once the four files are downloaded on to the desktop, follow these steps befopre running the model:
 
 Open Terminal
 ```bash
 cd ~/"the folder name" 
 ```
-For example if the folder you named is called "Armenian", the command in Terminal would be -> cd ~/Armenian. If you have issues navigating folders, visit this easy to follow blog (https://www.redhat.com/en/blog/navigating-filesystem-linux-terminal)
+For example if the folder you named is called "Armenian", the command in Terminal would be **cd ~/Armenian** 
 
+If you have issues navigating folders, visit this easy to follow blog (https://www.redhat.com/en/blog/navigating-filesystem-linux-terminal).
+
+Copy the command below into Terminal
 ```bash
 pip install -r requirements_openvino.txt
 ```
 
-Required packages:
+This command loads the required packages:
 - `torch>=2.0.0`
 - `openvino>=2023.0.0`
 - `numpy>=1.24.0`
 
-
+You are now ready to run the model !
 
 ## Usage
 
-### Quick Start
+### Start
 
 ```bash
 python3 openvino_dependency_parser.py
