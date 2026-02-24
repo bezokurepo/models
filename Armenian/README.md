@@ -127,7 +127,7 @@ The parser uses a BiLSTM architecture with:
 - Word embeddings (128-512 dimensions)
 - Bidirectional LSTM layers (1-4 layers)
 - Multi-task classification heads for UPOS, XPOS, DEPREL, FEATS
-- Biaffine attention for HEAD prediction
+- Dot Product for HEAD prediction
 
 ## OpenVINO Optimization
 
