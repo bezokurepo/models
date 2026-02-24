@@ -33,7 +33,20 @@ $ python get-pip.py
 Support Note: Android is dropping in March 2026. MAC OS is not supported at this time.
 
 ## Start bezoku installation
+## Required Files
+
+Create a model directory and add these files:
+1. **best_pos_tagger_model_a100.pt** - PyTorch model checkpoint (state_dict format)
+2. **vocab.pkl** - Vocabulary dictionaries (pickle format)
+3. **metadata.json** - Model metadata and performance metrics
+4. **requirements_openvino.txt
+
+
 Open Terminal
+```bash
+cd ~/"the folder name" 
+```
+For example if the folder you named is called "Armenian", the command in Terminal would be -> cd ~/Armenian. If you have issues navigating folders, visit this easy to follow blog (https://www.redhat.com/en/blog/navigating-filesystem-linux-terminal)
 
 ```bash
 pip install -r requirements_openvino.txt
@@ -44,12 +57,7 @@ Required packages:
 - `openvino>=2023.0.0`
 - `numpy>=1.24.0`
 
-## Required Files
 
-Create a model directory and add these files:
-1. **best_pos_tagger_model_a100.pt** - PyTorch model checkpoint (state_dict format)
-2. **vocab.pkl** - Vocabulary dictionaries (pickle format)
-3. **metadata.json** - Model metadata and performance metrics
 
 ## Usage
 
