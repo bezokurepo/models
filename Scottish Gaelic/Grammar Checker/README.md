@@ -27,8 +27,9 @@ Create a model directory, e.g. Armenian, and download these files:
 4. **requirements_openvino.txt** - The libraries needed to run the model
 5. **openvino_dependency_parser_with_grammar.py** - This is the model runner that brings all the files together
 6. **grammar_checker.py** - This is similar to a library, for example lke numpy
+7. ***morphology_table.pkl*** - These are used for suggestions
 
-Once the six files are downloaded on to the desktop (if the openvino_dependency_parser.py file is in the directory, it can remain), follow these steps before running the model:
+Once the seven files are downloaded on to the desktop (if the openvino_dependency_parser.py file is in the directory, it can also remain), follow these steps before running the model:
 
 Open Terminal
 ```bash
@@ -64,7 +65,7 @@ The script will prompt you for:
 
 ### 2. Required Files
 
-Your model directory must contain:
+Your model directory must contain these files: the first four are in the dependency parser folder with the last two in this folder:
 - `best_pos_tagger_model_a100.pt` - Same as parent directory (do not forget to unzip)
 - `vocab.pkl` - Same as parent directory
 - `metadata.json` - Same as parent directory
@@ -100,12 +101,16 @@ Once running:
 
 If you encounter problems with this version:
 
-1. **Fall back to standard parser**:
+1.***Check all the required files are in the folder***
 
-2. **Check logs** for error messages
+2. ***Check you are in the right directory*** In Terminal type the command "pwd" which stands for print working directory
+   
+4. **Fall back to standard parser**
+
+5. **Check logs** for error messages
    Email errors to ian.gilmour@bezoku.ai for bug fixing
 
-4. **Test without grammar checking**:
+6. **Test without grammar checking**:
    - Run the grammar version
    - Type `grammar` to turn off checking
    - Verify basic parsing still works
