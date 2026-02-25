@@ -1,4 +1,4 @@
-# Grammar Checker Version - Experimental
+# Grammar Checker Version - beta release
 
 ## Overview
 
