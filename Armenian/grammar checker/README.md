@@ -19,12 +19,7 @@ This folder contains an **experimental version** of the OpenVINO dependency pars
 
 ## Quick Start
 
-### 1. Test with a Language Model
-
-```bash
-cd ~:/"home/Grammar_Checker_Version"
-python3 openvino_dependency_parser_with_grammar.py
-```
+### 1. Follow the steps for the dependency parser to get python and pip working on Windows or Ubuntu.
 
 ### 2. Required Files
 
