@@ -293,8 +293,8 @@ def tokenize_sentence(sentence: str) -> List[str]:
     for punct in ['.', ',', '!', '?', ':', ';', '(', ')', '"', "'", '«', '»']:
         sentence = sentence.replace(punct, f' {punct} ')
     
-    # Contractions and clitics (Portuguese-specific)
-    sentence = sentence.replace('à', ' à ')
+    # Do NOT split on accented characters - they are part of words
+    # Previous Portuguese-specific rule removed to support all languages
     
     tokens = sentence.split()
     tokens = [t.strip() for t in tokens if t.strip()]
