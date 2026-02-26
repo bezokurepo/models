@@ -99,18 +99,15 @@ Once running:
 
 ## If Issues Occur
 
-If you encounter problems with this version:
+***Check all the required files are in the folder***
 
-1.***Check all the required files are in the folder***
+***Check you are in the right directory*** 
+In Terminal type the command "pwd" which stands for print working directory
 
-2. ***Check you are in the right directory*** In Terminal type the command "pwd" which stands for print working directory
-   
-4. **Fall back to standard parser**
+**Check logs** for error messages
+Email errors to ian.gilmour@bezoku.ai for bug fixing
 
-5. **Check logs** for error messages
-   Email errors to ian.gilmour@bezoku.ai for bug fixing
-
-6. **Test without grammar checking**:
+**Test without grammar checking**:
    - Run the grammar version
    - Type `grammar` to turn off checking
    - Verify basic parsing still works
@@ -119,8 +116,6 @@ If you encounter problems with this version:
 
 For questions or issues with this experimental version:
 - Email: ian.gilmour@bezoku.ai
-- Check `GRAMMAR_CHECKER_SETUP.md` for detailed documentation
-- Review `IMPLEMENTATION_SUMMARY.md` for technical details
 
 ## Version Control
 
