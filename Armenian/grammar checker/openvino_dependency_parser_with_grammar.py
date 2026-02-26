@@ -348,6 +348,41 @@ def predict_sentence(sentence: str, compiled_model, vocab: Dict,
     feats_preds = np.argmax(feats_logits[0], axis=-1)
     head_preds = np.argmax(head_scores[0], axis=-1)
     
+    # Post-process: Enforce single-root constraint
+    # Find all tokens predicting HEAD=0 (multiple roots)
+    root_candidates = [i for i in range(original_length) if head_preds[i] == 0]
+    
+    if len(root_candidates) > 1:
+        # Multiple roots detected - pick the best one based on head_scores
+        best_root_idx = -1
+        best_root_score = -np.inf
+        
+        for candidate_idx in root_candidates:
+            # Score for this token pointing to 0 (root)
+            score = head_scores[0][candidate_idx, 0]
+            if score > best_root_score:
+                best_root_score = score
+                best_root_idx = candidate_idx
+        
+        # Reassign non-best roots to point to the best root
+        for candidate_idx in root_candidates:
+            if candidate_idx != best_root_idx:
+                # Find the next-best head (excluding 0)
+                scores_copy = head_scores[0][candidate_idx].copy()
+                scores_copy[0] = -np.inf  # Mask out root
+                head_preds[candidate_idx] = np.argmax(scores_copy)
+    
+    elif len(root_candidates) == 0:
+        # No root predicted - force the highest-scoring token to be root
+        best_idx = 0
+        best_score = -np.inf
+        for i in range(original_length):
+            score = head_scores[0][i, 0]
+            if score > best_score:
+                best_score = score
+                best_idx = i
+        head_preds[best_idx] = 0
+    
     # Build results (only for original tokens, not padding)
     results = {
         'tokens': [],
