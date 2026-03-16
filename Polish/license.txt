@@ -1,10 +1,12 @@
-Models are trained on Universal Dependencies which are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International (https://universaldependencies.org/).
+Models are trained on Universal Dependencies Polish corpora:
 
-All Bezoku public models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+Polish UD treebank - derived from the Polish Dependency Bank 2.0
+http://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Specific attribution and copyright statements are available for each model and their related underlying corpus. 
+Copyright (C) 2019 Alina Wróblewska, Institute of Computer Sciences, Polish Academy of Sciences
 
-Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
+and
 
-The complete license text is available at:
-http://creativecommons.org/licenses/by-sa/4.0/legalcode
+Polish LFG treebank
+
+License: GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007
