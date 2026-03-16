@@ -1,10 +1,17 @@
-Models are trained on Universal Dependencies which are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International (https://universaldependencies.org/).
+Models are trained on Universal Dependencies which are generally licensed under the Creative Commons License Attribution-ShareAlike 4.0 International (https://universaldependencies.org/).
 
 All Bezoku public models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
 
 Specific attribution and copyright statements are available for each model and their related underlying corpus. 
 
-Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
+For UD Tamil-TTB:
+This work is licensed under the Creative Commons Attribution-NonCommercial-
+ShareAlike 3.0 Unported License. To view a copy of this license, visit
 
-The complete license text is available at:
-http://creativecommons.org/licenses/by-sa/4.0/legalcode
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+For UD Tamil-MWT:
+Licensed under the Creative Commons License Attribution-ShareAlike 4.0 International (https://universaldependencies.org/)
+
+
+Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
