@@ -4,6 +4,16 @@ All Bezoku public models are licensed under the Creative Commons License Attribu
 
 Specific attribution and copyright statements are available for each model and their related underlying corpus. 
 
+From the UD SST corpora:
+The Universal Dependencies Treebank of Spoken Slovenian (SST) is made available under CC BY-SA 4.0.
+
+Unannotated transcriptions have been sampled from the Gos 2 corpus of spoken Slovene
+(http://hdl.handle.net/11356/1863), also distributed under CC BY-SA 4.0.
+
+From the UD SSJ corpora:
+The Slovenian UD Treebank is available under CC BY-SA 4.0,
+Creative Commons Attribution-ShareAlike 4.0 International.
+
 Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
 
 The complete license text is available at:
