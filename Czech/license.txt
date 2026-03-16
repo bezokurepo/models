@@ -1,8 +1,13 @@
 Models are trained on Universal Dependencies which are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International (https://universaldependencies.org/).
 
-All Bezoku public models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+All Bezoku public models are generally licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
 
 Specific attribution and copyright statements are available for each model and their related underlying corpus. 
+
+# For Czech FicTree, this is the correct license:
+The treebank is licensed under the Creative Commons License Attribution-NonCommercial-ShareAlike 4.0 International
+
+
 
 Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
 
