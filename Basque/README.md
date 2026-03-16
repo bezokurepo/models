@@ -30,7 +30,6 @@ Copy this instruction into the Terminal application
 ```bash
 $ python get-pip.py
 ```
-Support Note: Android is dropping in March 2026. MAC OS is not supported at this time.
 
 ## Start bezoku installation
 ## Required Files
