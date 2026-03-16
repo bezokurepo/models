@@ -1,4 +1,6 @@
-The Universal Dependencies treebank was licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+The BulTreeBank training data is covered by the CC BY-NC-SA 3.0.
 
-The complete license text is available at:
-http://creativecommons.org/licenses/by-sa/4.0/legalcode
+For informal information please see here:
+http://creativecommons.org/licenses/by-nc-sa/4.0/.
+For formal representation please see here:
+http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.
