@@ -4,6 +4,8 @@ All Bezoku public models are licensed under the Creative Commons License Attribu
 
 Specific attribution and copyright statements are available for each model and their related underlying corpus. 
 
+For UD corpora kenet and boun, both are licensed by Creative Commons License Attribution-ShareAlike 4.0.
+
 Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
 
 The complete license text is available at:
