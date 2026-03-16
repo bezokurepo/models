@@ -1,8 +1,14 @@
-Models are trained on Universal Dependencies which are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International (https://universaldependencies.org/).
+Models are trained on Universal Dependencies which are generally licensed under the Creative Commons License Attribution-ShareAlike 4.0 International (https://universaldependencies.org/).
 
 All Bezoku public models are licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
 
 Specific attribution and copyright statements are available for each model and their related underlying corpus. 
+
+For UD Ukrainian-IU
+The treebank is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 
+
+For UD Ukrainian-Parlamint
+The treebank is licensed under the Creative Commons License Attribution-ShareAlike 4.0 International
 
 Report any errors in corpus attribution to ian.gilmour@bezoku.ai so that they can be fixed urgently.
 
