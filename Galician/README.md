@@ -1,6 +1,6 @@
 # OpenVINO Dependency Parser for bezoku low resource and indigenous language models
 
-Universal CPU-optimized inference tool for BiLSTM dependency parsing with multi-task outputs.
+Universal CPU-optimized inference tool for BiLSTM dependency parsing with multi-task outputs. License excludes commercial uses - see license.txt for more information.
 
 ## Features
 
