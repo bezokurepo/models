@@ -1,0 +1,246 @@
+# OpenVINO Dependency Parser for bezoku low resource and indigenous language models
+
+Universal CPU-optimized inference tool for BiLSTM dependency parsing with multi-task outputs.
+
+## Features
+
+- **Multi-task parsing**: UPOS, XPOS, DEPREL, FEATS, and HEAD prediction
+- **OpenVINO optimization**: Fast CPU inference using Intel OpenVINO toolkit
+- **Language-agnostic**: Works with any trained model following the standard format
+- **Interactive mode**: Test sentences in real-time
+- **CoNLL-U export**: Toggle between table and CoNLL-U format output
+- **Grammar checking**: Rule-based validation for morphological agreement and syntactic consistency
+
+## Windows Powershell support can be found here - https://learn.microsoft.com/en-us/windows/python/beginners
+Commands can be copied into the Terminal window and have been tested on Ubuntu. For Windows, it may require some extra steps. If you need support to install Python or any of the commands below, try the python beginners link first.
+
+## Preparation
+1) Install Python (one-time)
+
+For Windows, you can visit the Windows Store or the python beginners link above
+https://apps.microsoft.com/detail/9nq7512cxl7t?ocid=webpdpshare
+
+For Ubuntu, copy this instruction into the Terminal application
+```bash
+$ sudo apt-get update
+$ sudo apt-get install python3.6
+```
+2) Install pip (one-time)
+
+Copy this instruction into the Terminal application
+```bash
+$ python get-pip.py
+```
+Support Note: Android is dropping in March 2026. MAC OS is not supported at this time.
+
+## Start bezoku installation
+## Required Files
+
+Create a model directory, e.g. Armenian, and download these files:
+1. **best_pos_tagger_model_a100.pt** - PyTorch model checkpoint (state_dict format)
+2. **vocab.pkl** - Vocabulary dictionaries (pickle format)
+3. **metadata.json** - Model metadata and performance metrics
+4. **morphology_table.pkl** - Morphology lookup table (optional, for grammar checking suggestions)
+5. **requirements_openvino.txt** - The libraries needed to run the model
+6. **openvino_dependency_parser.py** - This is the model runner
+7. **grammar_checker.py** - Grammar validation module
+
+Once the five files are downloaded on to the desktop, follow these steps befopre running the model:
+
+Open Terminal
+```bash
+cd ~/"the folder name" 
+```
+For example if the folder you named is called "Armenian", the command in Terminal would be **cd ~/Armenian** 
+
+If you have issues navigating folders, visit this easy to follow blog (https://www.redhat.com/en/blog/navigating-filesystem-linux-terminal).
+
+Copy the command below into Terminal
+```bash
+pip install -r requirements_openvino.txt
+```
+
+This command loads the required packages:
+- `torch>=2.0.0`
+- `openvino>=2023.0.0`
+- `numpy>=1.24.0`
+
+You are now ready to run the model !
+
+## Usage
+
+### Start
+
+```bash
+python3 openvino_dependency_parser.py
+```
+
+The script will prompt you for:
+1. Model directory path
+2. Which model file to use (if multiple .pt files exist)
+
+### Example Session
+
+```
+Enter path to model directory: /home/user/Models and Results/Brazilian Portuguese/
+✓ Selected: best_pos_tagger_model_a100.pt
+
+[Model loads and converts to OpenVINO...]
+
+> O Brasil é um país da América do Sul.
+
+ID   TOKEN           UPOS     XPOS       DEPREL          FEATS                HEAD 
+====================================================================================================
+1    O               DET      ART        det             Definite=Def|Gen..   2    
+2    Brasil          PROPN    PROPN      nsubj           Number=Sing          3    
+3    é               AUX      V          cop             Mood=Ind|Number=..   0    
+4    um              DET      ART        det             Definite=Ind|Gen..   5    
+5    país            NOUN     N          root            Number=Sing          3    
+6    da              ADP      ADP        case            _                    7    
+7    América         PROPN    PROPN      nmod            Number=Sing          5    
+8    do              ADP      ADP        case            _                    9    
+9    Sul             PROPN    PROPN      nmod            Number=Sing          7    
+10   .               PUNCT    .          punct           _                    5    
+
+⏱️  Inference time: 23.4ms (10 tokens)
+```
+
+## Commands
+
+### Interactive Mode
+- `quit` or `exit` - Exit the program
+- `info` - Display model information and performance metrics
+- `conllu` - Toggle CoNLL-U format output
+- `grammar` - Toggle grammar checking (if morphology table available)
+- `help` - Show command list
+
+### Output Formats
+
+**Table format** (default):
+- Human-readable table with columns: ID, TOKEN, UPOS, XPOS, DEPREL, FEATS, HEAD
+- Truncates long FEATS strings for readability
+
+**CoNLL-U format** (toggle with `conllu` command):
+- Standard Universal Dependencies format
+- Compatible with UD tools and validators
+- Includes placeholder fields for LEMMA, DEPS, and MISC
+
+## Model Architecture
+
+The parser uses a BiLSTM architecture with:
+- Word embeddings (128-512 dimensions)
+- Bidirectional LSTM layers (1-4 layers)
+- Multi-task classification heads for UPOS, XPOS, DEPREL, FEATS
+- Dot Product for HEAD prediction
+
+## OpenVINO Optimization
+
+The conversion process:
+1. Loads PyTorch checkpoint
+2. Infers architecture from tensor shapes
+3. Reconstructs model with loaded weights
+4. Converts to OpenVINO IR format (.xml + .bin)
+5. Compiles for CPU execution
+
+Benefits:
+- **2-5× faster** inference on Intel CPUs
+- Lower memory footprint
+- Optimized for production deployment
+- No GPU required
+
+## Performance
+
+Typical inference times on Intel Xeon/Core i7:
+- Short sentence (5-10 tokens): 15-30ms
+- Medium sentence (20-30 tokens): 30-60ms
+- Long sentence (50+ tokens): 80-150ms
+
+Memory usage: ~200-500MB (model dependent)
+
+## File Structure
+
+After first run, the directory will contain:
+```
+openvino_model/
+├── dependency_parser.xml   # OpenVINO IR model
+└── dependency_parser.bin   # Model weights
+```
+
+The OpenVINO model is cached and reused for subsequent runs.
+
+## Grammar Checking
+
+The parser includes optional grammar checking that validates:
+- **Subject-verb agreement**: Number, person, and gender agreement
+- **Noun-adjective agreement**: Gender, number, and case agreement
+- **Determiner-noun agreement**: Gender, number, and case agreement
+- **Case consistency**: Validates that arguments have appropriate case markers
+
+### Usage
+
+Grammar checking is automatically enabled if `morphology_table.pkl` is present in the model directory. Toggle it on/off during interactive mode with the `grammar` command.
+
+### Example Output
+
+```
+> The children walks to school
+
+[Parse table displayed...]
+
+======================================================================
+GRAMMAR CHECK: Found 1 error(s)
+======================================================================
+
+❌ Error 1: Subject-Verb Agreement
+   Token 3: "walks"
+   Issue: Verb does not agree with subject in Number
+   Related to token 2: "children"
+   Expected: Number=Plur|Person=3|Tense=Pres
+   Found: Number=Sing|Person=3|Tense=Pres
+
+======================================================================
+```
+
+### Language Support
+
+Works with all 24 languages:
+- **16 Inflected**: Armenian, Bulgarian, Czech, Finnish, German, Greek, Hindi, Icelandic, Latin, Lithuanian, Polish, Portuguese, Romanian, Russian, Slovak, Ukrainian
+- **8 Agglutinative**: Basque, Hungarian, Japanese, Korean, Swahili, Tamil, Turkish, Uyghur
+
+## Troubleshooting
+
+### "Conversion failed" error
+- Check that model checkpoint contains all expected layers
+- Verify vocab.pkl has all required vocabulary dictionaries
+- Ensure PyTorch and OpenVINO versions are compatible
+
+### "Index out of range" during inference
+- Check tokenization - may need to adjust for your language
+- Verify vocabulary contains `<UNK>` token for unknown words
+
+### Slow inference
+- First run includes conversion time (~10-30 seconds)
+- Subsequent runs use cached OpenVINO model
+- CPU optimization depends on Intel CPU features (AVX2, AVX-512)
+
+## Citation
+
+If using this tool for research, please cite:
+```
+@software{bezoku_dependency_parser,
+  title={Universal OpenVINO Dependency Parser},
+  author={bezoku.ai},
+  year={2025},
+  url={https://github.com/bezokurepo}
+}
+```
+
+## License
+
+See model-specific metadata.json for usage terms and licensing.
+
+## Contact
+
+For support, custom models, or enterprise deployment:
+- Email: ian.gilmour@bezoku.ai
+- Models: https://github.com/bezokurepo/models
