@@ -1,0 +1,34 @@
+{
+  "language": "bororo",
+  "language_code": "bor",
+  "version": "1.0.0",
+  "date_trained": "2026-Feb",
+  "performance": {
+    "las": 0.6446982821462188,
+    "uas": 0.7401923336950091,
+    "upos": 0.8827102422714234,
+    "xpos": 0.8707462310791015,
+    "deprel": 0.7982876062393188,
+    "feats": 0.8349043369293213
+  },
+  "vocabulary_sizes": {
+    "words": 6211,
+    "upos_tags": 18,
+    "xpos_tags": 42,
+    "deprel_types": 22,
+    "feats_patterns": 247
+  },
+  "characteristics": {
+    "variant": "UD_Bororo-BDT is a compilation of annotated sentences in Bororo. The corpus encompasses sentences derived from diverse sources: grammar examples, mythological narratives, fieldwork material, and other sources. Sentence annotation and documentation by Fabrício Ferraz Gerardi.",
+    "morphology": "Agglutinative",
+    "recommended_use": [
+      "grammar checking",
+      "linguistic analysis",
+      "NLP pipelines"
+    ]
+  },
+  "contact": {
+    "email": "ian.gilmour@bezoku.ai",
+    "partnerships": "For fine-tuning, custom models, or enterprise support"
+  }
+}
