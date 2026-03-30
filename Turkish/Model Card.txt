@@ -9,22 +9,22 @@ Turkish Dataset - Model Card - version 1.1 (Biaffine Attention) March 2026
 Test results
 =============================================
 
-UPOS: 91.82% ⭐⭐⭐⭐ (Stanza: n/a)
+UPOS: 89.14% ⭐⭐⭐⭐ (Stanza: n/a)
 •  Basic word types (noun, verb, adjective)
 
 XPOS: n/a%  MORPHOLOGICAL (Stanza: n/a) 
 •  Detailed language specific grammar tags
 
-FEATS: 84.10% ⭐⭐⭐⭐ (Stanza: n/a)
+FEATS: 82.57% ⭐⭐⭐⭐ (Stanza: n/a)
 •  Word features (gender, number, tense, mood)
 
-DEPREL: 75.70% ⭐⭐⭐ (Stanza: n/a)
+DEPREL: 75.59% ⭐⭐⭐ (Stanza: n/a)
 •  How words relate (subject, object, modifier)
 
-UAS: 71.77% ⭐⭐ (Stanza: n/a)
+UAS: 74.30% ⭐⭐ (Stanza: n/a)
 •  Which word connects to which (ignoring the relationship type)
 
-LAS: 59.28% ⭐⭐ (Stanza: n/a)
+LAS: 61.38% ⭐⭐ (Stanza: n/a)
 •  Full package: right connection + right relationship
 
 Stanza benchmarks for kenet + boun can be found here - https://stanfordnlp.github.io/stanza/performance.html
