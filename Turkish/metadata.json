@@ -1,15 +1,15 @@
 {
   "language": "Turkish",
-  "language_code": "tr-kenet&boun",
+  "language_code": "tu",
   "version": "1.0.0",
-  "date_trained": "2026-Feb",
+  "date_trained": "2026-Mar",
   "performance": {
-    "las": 0.5927584245579546,
-    "uas": 0.7177212035018784,
-    "upos": 0.9182237982749939,
-    "xpos": 1.0,
-    "deprel": 0.7570100426673889,
-    "feats": 0.8409557441870371
+    "las": 0.6138403066402347,
+    "uas": 0.7430291338093364,
+    "upos": 0.8913712898890177,
+    "xpos": 0.7374087671438853,
+    "deprel": 0.7558796803156534,
+    "feats": 0.8256670236587524
   },
   "vocabulary_sizes": {
     "words": 21979,
@@ -19,8 +19,8 @@
     "feats_patterns": 2166
   },
   "characteristics": {
-    "variant": "UD corpora (kenet + boun) with subtype stripped and 101k case annotated tokens",
-    "morphology": "agglutinative",
+    "variant": "Aggregated UD corpus",
+    "morphology": "Agglutinative",
     "recommended_use": [
       "grammar checking",
       "linguistic analysis",
